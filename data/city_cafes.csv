@@ -1,0 +1,6 @@
+city,city_key,lat,lon,cafes_total,cafes_chain,cafes_independent,chain_pct,population,per_10k
+Melbourne,melbourne,-37.8407,145.028,3075,176,2899,5.7,5207145,5.91
+Sydney,sydney,-33.8542,151.131,2938,246,2692,8.4,5450496,5.39
+Brisbane,brisbane,-27.4674,153.034,1220,140,1080,11.5,2628083,4.64
+Perth,perth,-31.966,115.8473,913,113,800,12.4,2309338,3.95
+Adelaide,adelaide,-34.9315,138.5955,598,38,560,6.4,1446380,4.13

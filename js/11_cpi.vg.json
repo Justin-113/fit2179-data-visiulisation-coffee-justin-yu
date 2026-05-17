@@ -1,0 +1,225 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Year-on-year CPI inflation: All Groups vs Food vs Coffee/tea/cocoa, monthly Apr 2025 to Mar 2026.",
+    "height": "container",
+    "padding": 16,
+    "data": {
+        "url": "data/cpi_inflation.csv"
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "strokeWidth": 3,
+                "point": {
+                    "filled": true,
+                    "size": 70
+                },
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "format": "%b %Y",
+                        "labelFontSize": 11,
+                        "labelAngle": 0,
+                        "tickCount": 6,
+                        "labelPadding": 6
+                    }
+                },
+                "y": {
+                    "field": "yoy_pct",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            18
+                        ],
+                        "nice": false
+                    },
+                    "axis": {
+                        "title": "Annual change (%)",
+                        "titleFontSize": 12,
+                        "titlePadding": 14,
+                        "labelFontSize": 11,
+                        "values": [
+                            0,
+                            3,
+                            6,
+                            9,
+                            12,
+                            15,
+                            18
+                        ],
+                        "labelExpr": "datum.value + '%'",
+                        "grid": true,
+                        "gridDash": [
+                            2,
+                            4
+                        ]
+                    }
+                },
+                "color": {
+                    "field": "series",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "All groups CPI",
+                            "Food and beverages",
+                            "Coffee tea & cocoa"
+                        ],
+                        "range": [
+                            "#9C8866",
+                            "#D9A05B",
+                            "#A53F2B"
+                        ]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "top",
+                        "labelFontSize": 12,
+                        "symbolStrokeWidth": 3,
+                        "padding": 8
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "type": "temporal",
+                        "title": "Month",
+                        "format": "%b %Y"
+                    },
+                    {
+                        "field": "series",
+                        "type": "nominal",
+                        "title": "Series"
+                    },
+                    {
+                        "field": "yoy_pct",
+                        "type": "quantitative",
+                        "title": "Annual change",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "index",
+                        "type": "quantitative",
+                        "title": "Index (Sep 2025 = 100)",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "date": "2025-10-01",
+                        "y": 17.4,
+                        "label": "Peak: +16.4% in Oct 2025"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700,
+                "color": "#A53F2B"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "date": "2025-10-01",
+                        "y": 13.6,
+                        "label": "4.3\u00d7 the total CPI rate"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 600,
+                "color": "#A53F2B"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "date": "2025-10-01",
+                        "y": 1.5,
+                        "label": "Total CPI: 3.8%"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 600,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "resolve": {
+        "scale": {
+            "y": "shared"
+        }
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

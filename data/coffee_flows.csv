@@ -1,0 +1,37 @@
+country,order,lon,lat,species,tonnes
+Brazil,0,-47.9,-15.8,Arabica,30352.0
+Brazil,1,43.05,4.6,Arabica,30352.0
+Brazil,2,134.0,-25.0,Arabica,30352.0
+Colombia,0,-74.1,4.7,Arabica,16356.0
+Colombia,1,29.95,14.85,Arabica,16356.0
+Colombia,2,134.0,-25.0,Arabica,16356.0
+Viet Nam,0,105.8,21.0,Robusta,12409.0
+Viet Nam,1,119.9,12.84,Robusta,12409.0
+Viet Nam,2,134.0,-25.0,Robusta,12409.0
+Papua New Guinea,0,147.2,-6.3,Arabica,10253.0
+Papua New Guinea,1,140.6,-9.27,Arabica,10253.0
+Papua New Guinea,2,134.0,-25.0,Arabica,10253.0
+Ethiopia,0,38.7,9.0,Arabica,8724.0
+Ethiopia,1,86.35,17.0,Arabica,8724.0
+Ethiopia,2,134.0,-25.0,Arabica,8724.0
+Honduras,0,-87.2,14.1,Arabica,7961.0
+Honduras,1,23.4,19.55,Arabica,7961.0
+Honduras,2,134.0,-25.0,Arabica,7961.0
+India,0,77.6,12.5,Robusta,5447.0
+India,1,105.8,12.53,Robusta,5447.0
+India,2,134.0,-25.0,Robusta,5447.0
+Uganda,0,32.6,0.3,Robusta,3376.0
+Uganda,1,83.3,12.65,Robusta,3376.0
+Uganda,2,134.0,-25.0,Robusta,3376.0
+Indonesia,0,106.8,-6.2,Robusta,2677.0
+Indonesia,1,120.4,-6.4,Robusta,2677.0
+Indonesia,2,134.0,-25.0,Robusta,2677.0
+Peru,0,-77.0,-12.0,Arabica,2415.0
+Peru,1,28.5,6.5,Arabica,2415.0
+Peru,2,134.0,-25.0,Arabica,2415.0
+Guatemala,0,-90.5,14.6,Arabica,2120.0
+Guatemala,1,21.75,19.8,Arabica,2120.0
+Guatemala,2,134.0,-25.0,Arabica,2120.0
+Mexico,0,-99.1,19.4,Arabica,1849.0
+Mexico,1,17.45,22.2,Arabica,1849.0
+Mexico,2,134.0,-25.0,Arabica,1849.0

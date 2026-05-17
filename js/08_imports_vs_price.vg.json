@@ -1,0 +1,249 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Dual-axis line chart: Australia's coffee import volume (tonnes) vs international Arabica price (USD/kg), 2015-2025.",
+    "height": "container",
+    "padding": 16,
+    "data": {
+        "url": "data/imports_vs_price.csv"
+    },
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "ordinal",
+            "axis": {
+                "title": null,
+                "labelFontSize": 11,
+                "labelAngle": 0,
+                "labelPadding": 6
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "color": "#2F5D50",
+                "strokeWidth": 3,
+                "point": {
+                    "filled": true,
+                    "size": 70,
+                    "color": "#2F5D50"
+                }
+            },
+            "encoding": {
+                "y": {
+                    "field": "au_imports_tonnes",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            80000,
+                            130000
+                        ],
+                        "nice": false
+                    },
+                    "axis": {
+                        "title": "Australia coffee imports (tonnes)",
+                        "titleFontSize": 12,
+                        "titleColor": "#2F5D50",
+                        "titlePadding": 14,
+                        "labelFontSize": 11,
+                        "labelColor": "#2F5D50",
+                        "values": [
+                            80000,
+                            90000,
+                            100000,
+                            110000,
+                            120000,
+                            130000
+                        ],
+                        "format": ",d",
+                        "grid": true,
+                        "gridDash": [
+                            2,
+                            4
+                        ]
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "au_imports_tonnes",
+                        "type": "quantitative",
+                        "title": "AU imports (tonnes)",
+                        "format": ","
+                    },
+                    {
+                        "field": "au_imports_value_usd",
+                        "type": "quantitative",
+                        "title": "Value (USD)",
+                        "format": "$,.0f"
+                    },
+                    {
+                        "field": "au_unit_price_usd",
+                        "type": "quantitative",
+                        "title": "AU unit price ($/tonne)",
+                        "format": "$,.0f"
+                    },
+                    {
+                        "field": "arabica_price_usd_kg",
+                        "type": "quantitative",
+                        "title": "Arabica price (USD/kg)",
+                        "format": "$.2f"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "color": "#A53F2B",
+                "strokeWidth": 3,
+                "strokeDash": [
+                    6,
+                    3
+                ],
+                "point": {
+                    "filled": true,
+                    "size": 70,
+                    "color": "#A53F2B"
+                }
+            },
+            "encoding": {
+                "y": {
+                    "field": "arabica_price_usd_kg",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            2,
+                            10
+                        ],
+                        "nice": false
+                    },
+                    "axis": {
+                        "title": "Arabica price (USD/kg)",
+                        "titleFontSize": 12,
+                        "titleColor": "#A53F2B",
+                        "titlePadding": 14,
+                        "labelFontSize": 11,
+                        "labelColor": "#A53F2B",
+                        "values": [
+                            2,
+                            4,
+                            6,
+                            8,
+                            10
+                        ],
+                        "labelExpr": "'$' + datum.value",
+                        "orient": "right",
+                        "grid": false
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "arabica_price_usd_kg",
+                        "type": "quantitative",
+                        "title": "Arabica price (USD/kg)",
+                        "format": "$.2f"
+                    },
+                    {
+                        "field": "robusta_price_usd_kg",
+                        "type": "quantitative",
+                        "title": "Robusta price (USD/kg)",
+                        "format": "$.2f"
+                    },
+                    {
+                        "field": "au_imports_tonnes",
+                        "type": "quantitative",
+                        "title": "AU imports (tonnes)",
+                        "format": ","
+                    },
+                    {
+                        "field": "au_imports_value_usd",
+                        "type": "quantitative",
+                        "title": "AU total bill (USD)",
+                        "format": "$,.0f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "year": "2025",
+                        "y": 125000,
+                        "label": "Imports peak:"
+                    },
+                    {
+                        "year": "2025",
+                        "y": 124000,
+                        "label": "122,800 tonnes (+23%)"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2F5D50"
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "scale": {
+                        "domain": [
+                            "2015",
+                            "2016",
+                            "2017",
+                            "2018",
+                            "2019",
+                            "2020",
+                            "2021",
+                            "2022",
+                            "2023",
+                            "2024",
+                            "2025"
+                        ]
+                    }
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            80000,
+                            130000
+                        ]
+                    },
+                    "axis": null
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "resolve": {
+        "scale": {
+            "y": "independent"
+        }
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

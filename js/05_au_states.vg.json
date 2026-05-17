@@ -1,0 +1,146 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Choropleth map of Australian states/territories shaded by caf\u00e9 & restaurant density (businesses per 10,000 residents), based on ABS CABEE 2025 and ABS Population June 2025.",
+    "height": "container",
+    "padding": 12,
+    "projection": {
+        "type": "mercator",
+        "center": [
+            134,
+            -28
+        ],
+        "scale": 450
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "data/australian-states.json",
+                "format": {
+                    "type": "json",
+                    "property": "features"
+                }
+            },
+            "transform": [
+                {
+                    "lookup": "properties.STATE_NAME",
+                    "from": {
+                        "data": {
+                            "url": "data/cafes_by_state.csv"
+                        },
+                        "key": "state",
+                        "fields": [
+                            "state_code",
+                            "cafes_restaurants",
+                            "population",
+                            "density_per_10k"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 0.8
+            },
+            "encoding": {
+                "color": {
+                    "field": "density_per_10k",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            8,
+                            26
+                        ],
+                        "range": [
+                            "#E8DCC4",
+                            "#2F5D50"
+                        ]
+                    },
+                    "legend": {
+                        "title": "Caf\u00e9s & restaurants per 10,000 people",
+                        "titleFontSize": 11,
+                        "labelFontSize": 10,
+                        "orient": "bottom",
+                        "direction": "horizontal",
+                        "gradientLength": 220,
+                        "gradientThickness": 8,
+                        "format": ".0f"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "properties.STATE_NAME",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "state_code",
+                        "type": "nominal",
+                        "title": "Code"
+                    },
+                    {
+                        "field": "cafes_restaurants",
+                        "type": "quantitative",
+                        "title": "Caf\u00e9s + restaurants",
+                        "format": ","
+                    },
+                    {
+                        "field": "population",
+                        "type": "quantitative",
+                        "title": "Population",
+                        "format": ","
+                    },
+                    {
+                        "field": "density_per_10k",
+                        "type": "quantitative",
+                        "title": "Per 10k people",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 156,
+                        "lat": -38,
+                        "label": "Victoria leads:"
+                    },
+                    {
+                        "lon": 156,
+                        "lat": -40,
+                        "label": "1 caf\u00e9 per 395 people"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

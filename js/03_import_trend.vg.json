@@ -1,0 +1,97 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "100% stacked area chart showing how Australia's coffee imports are sourced across major partner countries, 2015–2025.",
+    "height": "container",
+    "padding": 16,
+    "data": {
+        "url": "data/au_imports_share.csv"
+    },
+    "transform": [
+        {
+            "calculate": "indexof(['Brazil','Vietnam','Colombia','Papua New Guinea','Honduras','India','Other countries'], datum.group)",
+            "as": "groupOrder"
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "quantitative",
+            "scale": {"domain": [2015, 2025], "nice": false},
+            "axis": {
+                "title": null,
+                "format": "d",
+                "tickCount": 6,
+                "labelFontSize": 11,
+                "grid": false
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "area",
+                "interpolate": "monotone",
+                "line": {"color": "#F5F1EA", "strokeWidth": 0.8},
+                "tooltip": true
+            },
+            "encoding": {
+                "y": {
+                    "field": "share_pct",
+                    "type": "quantitative",
+                    "stack": "normalize",
+                    "axis": {
+                        "title": "Share of Australia's coffee imports",
+                        "titleFontSize": 12,
+                        "titlePadding": 10,
+                        "labelFontSize": 11,
+                        "format": ".0%",
+                        "grid": true,
+                        "gridDash": [2, 4]
+                    }
+                },
+                "color": {
+                    "field": "group",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["Brazil","Vietnam","Colombia","Papua New Guinea","Honduras","India","Other countries"],
+                        "range": ["#2F5D50","#1F5F5B","#A53F2B","#C9A87C","#6F4E37","#8C7361","#D6C9B0"]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "right",
+                        "labelFontSize": 11,
+                        "symbolType": "square",
+                        "symbolSize": 120
+                    }
+                },
+                "order": {"field": "groupOrder", "type": "quantitative"},
+                "tooltip": [
+                    {"field": "year", "type": "quantitative", "title": "Year"},
+                    {"field": "group", "type": "nominal", "title": "Source"},
+                    {"field": "volume_tonnes", "type": "quantitative", "title": "Volume (tonnes)", "format": ","},
+                    {"field": "share_pct", "type": "quantitative", "title": "Share", "format": ".1f"}
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {"year": 2022, "share_pct": 0.10, "label": "Brazil's share has grown"}
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#F5F1EA"
+            },
+            "encoding": {
+                "y": {"field": "share_pct", "type": "quantitative"},
+                "text": {"field": "label", "type": "nominal"}
+            }
+        }
+    ],
+    "config": {"view": {"stroke": null}}
+}

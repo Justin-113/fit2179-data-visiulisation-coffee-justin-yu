@@ -1,0 +1,97 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Heatmap of Australia's cafe, restaurant and takeaway food services turnover (monthly, seasonally adjusted) from June 2020 to June 2025. Shows COVID/Delta dip, post-2022 rebound, and the ABS series ending June 2025.",
+    "height": "container",
+    "padding": 16,
+    "data": {"url": "data/cafe_turnover.csv"},
+    "layer": [
+        {
+            "mark": {
+                "type": "rect",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 2
+            },
+            "encoding": {
+                "x": {
+                    "field": "month",
+                    "type": "ordinal",
+                    "axis": {
+                        "title": null,
+                        "labelFontSize": 12,
+                        "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+                        "orient": "top",
+                        "tickSize": 0,
+                        "labelPadding": 8
+                    }
+                },
+                "y": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "axis": {
+                        "title": null,
+                        "labelFontSize": 13,
+                        "labelFontWeight": 600,
+                        "tickSize": 0,
+                        "labelPadding": 8
+                    },
+                    "sort": "descending"
+                },
+                "color": {
+                    "field": "turnover_million_aud",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "browns",
+                        "domain": [3000, 5700]
+                    },
+                    "legend": {
+                        "title": "Turnover (A$ million)",
+                        "titleFontSize": 11,
+                        "labelFontSize": 11,
+                        "orient": "bottom",
+                        "format": ",.0f",
+                        "gradientLength": 280,
+                        "padding": 8
+                    }
+                },
+                "tooltip": [
+                    {"field": "year", "type": "ordinal", "title": "Year"},
+                    {"field": "month_name", "type": "nominal", "title": "Month"},
+                    {"field": "turnover_million_aud", "type": "quantitative", "title": "Turnover (A$ million)", "format": ",.0f"}
+                ]
+            }
+        },
+        {
+            "transform": [{"filter": "datum.year === 2021 && datum.month === 8"}],
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 10,
+                "fontWeight": 700,
+                "color": "#F5F1EA"
+            },
+            "encoding": {
+                "x": {"field": "month", "type": "ordinal"},
+                "y": {"field": "year", "type": "ordinal", "sort": "descending"},
+                "text": {"value": "Delta"}
+            }
+        },
+        {
+            "transform": [{"filter": "datum.year === 2025 && datum.month === 6"}],
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 10,
+                "fontWeight": 700,
+                "color": "#F5F1EA"
+            },
+            "encoding": {
+                "x": {"field": "month", "type": "ordinal"},
+                "y": {"field": "year", "type": "ordinal", "sort": "descending"},
+                "text": {"value": "END"}
+            }
+        }
+    ],
+    "config": {"view": {"stroke": null}}
+}

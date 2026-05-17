@@ -1,0 +1,30 @@
+country,arabica_bags,robusta_bags,total,arabica_pct,variety_mix
+Brazil,38000,25000,63000,60.3,Arabica-dominant
+Vietnam,1200,29600,30800,3.9,Pure Robusta
+Colombia,13800,0,13800,100.0,Pure Arabica
+Indonesia,1450,11000,12450,11.6,Robusta-dominant
+Ethiopia,11560,0,11560,100.0,Pure Arabica
+Uganda,1060,5815,6875,15.4,Robusta-dominant
+India,1350,4700,6050,22.3,Robusta-dominant
+Honduras,5800,0,5800,100.0,Pure Arabica
+Peru,4200,0,4200,100.0,Pure Arabica
+Mexico,3540,363,3903,90.7,Arabica-dominant
+Guatemala,3410,130,3540,96.3,Pure Arabica
+Nicaragua,2420,160,2580,93.8,Arabica-dominant
+China,1900,0,1900,100.0,Pure Arabica
+Malaysia,0,1500,1500,0.0,Pure Robusta
+Tanzania,750,700,1450,51.7,Mixed
+Cote d'Ivoire,0,1300,1300,0.0,Pure Robusta
+Costa Rica,1170,0,1170,100.0,Pure Arabica
+Papua New Guinea,900,50,950,94.7,Arabica-dominant
+Thailand,0,900,900,0.0,Pure Robusta
+Kenya,850,0,850,100.0,Pure Arabica
+El Salvador,500,0,500,100.0,Pure Arabica
+Venezuela,500,0,500,100.0,Pure Arabica
+Philippines,25,425,450,5.6,Robusta-dominant
+Laos,0,430,430,0.0,Pure Robusta
+Ecuador,100,250,350,28.6,Robusta-dominant
+Rwanda,350,0,350,100.0,Pure Arabica
+Madagascar,25,275,300,8.3,Robusta-dominant
+Cameroon,25,200,225,11.1,Robusta-dominant
+Congo (Kinshasa),50,150,200,25.0,Robusta-dominant

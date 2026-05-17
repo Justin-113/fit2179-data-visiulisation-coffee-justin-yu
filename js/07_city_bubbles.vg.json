@@ -1,0 +1,461 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Australia map with bubble overlay sizing the five biggest cities by caf\u00e9 count from OpenStreetMap.",
+    "height": "container",
+    "padding": 12,
+    "projection": {
+        "type": "mercator",
+        "center": [
+            134,
+            -27
+        ],
+        "scale": 700
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "data/australian-states.json",
+                "format": {
+                    "type": "json",
+                    "property": "features"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "#EFE6D2",
+                "stroke": "#D6C9B0",
+                "strokeWidth": 0.6
+            }
+        },
+        {
+            "data": {
+                "url": "data/city_cafes.csv"
+            },
+            "mark": {
+                "type": "circle",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 2,
+                "opacity": 0.85
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "cafes_total",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "range": [
+                            400,
+                            4000
+                        ]
+                    },
+                    "legend": null
+                },
+                "color": {
+                    "field": "cafes_total",
+                    "type": "quantitative",
+                    "scale": {
+                        "range": [
+                            "#6F9B8C",
+                            "#2F5D50"
+                        ]
+                    },
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "city",
+                        "type": "nominal",
+                        "title": "City"
+                    },
+                    {
+                        "field": "cafes_total",
+                        "type": "quantitative",
+                        "title": "Caf\u00e9s (OSM)",
+                        "format": ","
+                    },
+                    {
+                        "field": "cafes_independent",
+                        "type": "quantitative",
+                        "title": "Independent",
+                        "format": ","
+                    },
+                    {
+                        "field": "cafes_chain",
+                        "type": "quantitative",
+                        "title": "Chain",
+                        "format": ","
+                    },
+                    {
+                        "field": "chain_pct",
+                        "type": "quantitative",
+                        "title": "Chain share (%)",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "population",
+                        "type": "quantitative",
+                        "title": "Population",
+                        "format": ","
+                    },
+                    {
+                        "field": "per_10k",
+                        "type": "quantitative",
+                        "title": "Per 10k people",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/city_cafes.csv"
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "bottom",
+                "dy": -28,
+                "fontSize": 13,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "city",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "data/city_cafes.csv"
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dy": 38,
+                "fontSize": 11,
+                "fontWeight": 500,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "cafes_total",
+                    "type": "quantitative",
+                    "format": ","
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 155,
+                        "lat": -36,
+                        "label": "Melbourne tops both"
+                    },
+                    {
+                        "lon": 155,
+                        "lat": -37.5,
+                        "label": "rankings: more caf\u00e9s"
+                    },
+                    {
+                        "lon": 155,
+                        "lat": -39,
+                        "label": "than Sydney, despite"
+                    },
+                    {
+                        "lon": 155,
+                        "lat": -40.5,
+                        "label": "a smaller population."
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 102,
+                        "lat": -12,
+                        "label": "TOTAL CAF\u00c9S, 5 CITIES"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 600,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 102,
+                        "lat": -16,
+                        "label": "8,744"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 32,
+                "fontWeight": 700,
+                "color": "#2F5D50"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 102,
+                        "lat": -20,
+                        "label": "94% are independent \u2014"
+                    },
+                    {
+                        "lon": 102,
+                        "lat": -22,
+                        "label": "Australia's coffee culture"
+                    },
+                    {
+                        "lon": 102,
+                        "lat": -24,
+                        "label": "runs on small operators."
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 11,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 105,
+                        "lat": -42,
+                        "size_val": 600
+                    },
+                    {
+                        "lon": 111,
+                        "lat": -42,
+                        "size_val": 1500
+                    },
+                    {
+                        "lon": 118,
+                        "lat": -42,
+                        "size_val": 3000
+                    }
+                ]
+            },
+            "mark": {
+                "type": "circle",
+                "opacity": 0.5,
+                "color": "#6F9B8C",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 1.5
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "size_val",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "range": [
+                            400,
+                            4000
+                        ]
+                    },
+                    "legend": null
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 111,
+                        "lat": -38,
+                        "label": "BUBBLE = CAF\u00c9 COUNT"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 10,
+                "fontWeight": 600,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 105,
+                        "lat": -46,
+                        "label": "600"
+                    },
+                    {
+                        "lon": 111,
+                        "lat": -46,
+                        "label": "1,500"
+                    },
+                    {
+                        "lon": 118,
+                        "lat": -46,
+                        "label": "3,000"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 10,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

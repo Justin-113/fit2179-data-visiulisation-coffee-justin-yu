@@ -1,0 +1,374 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Flow map showing where Australia's coffee came from in 2025. Arcs connect origin countries to Australia, sized by import volume, coloured by Arabica vs Robusta dominance.",
+    "height": "container",
+    "padding": 16,
+    "projection": {
+        "type": "equalEarth",
+        "center": [
+            26,
+            3
+        ],
+        "scale": 220
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "data/world-110m.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "countries"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "#E0D2B0",
+                "stroke": "#B89B73",
+                "strokeWidth": 0.4
+            }
+        },
+        {
+            "data": {
+                "url": "data/coffee_flows.csv"
+            },
+            "transform": [
+                {
+                    "filter": "datum.species === 'Arabica'"
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "interpolate": "basis",
+                "color": "#2F5D50",
+                "opacity": 0.75
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "order": {
+                    "field": "order",
+                    "type": "ordinal"
+                },
+                "detail": {
+                    "field": "country",
+                    "type": "nominal"
+                },
+                "size": {
+                    "field": "tonnes",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "domain": [
+                            0,
+                            32000
+                        ],
+                        "range": [
+                            1,
+                            8
+                        ]
+                    },
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "country",
+                        "type": "nominal",
+                        "title": "Origin"
+                    },
+                    {
+                        "field": "species",
+                        "type": "nominal",
+                        "title": "Dominant species"
+                    },
+                    {
+                        "field": "tonnes",
+                        "type": "quantitative",
+                        "title": "Tonnes to AU (2025)",
+                        "format": ",.0f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/coffee_flows.csv"
+            },
+            "transform": [
+                {
+                    "filter": "datum.species === 'Robusta'"
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "interpolate": "basis",
+                "color": "#A53F2B",
+                "opacity": 0.75
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "order": {
+                    "field": "order",
+                    "type": "ordinal"
+                },
+                "detail": {
+                    "field": "country",
+                    "type": "nominal"
+                },
+                "size": {
+                    "field": "tonnes",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "domain": [
+                            0,
+                            32000
+                        ],
+                        "range": [
+                            1,
+                            8
+                        ]
+                    },
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "country",
+                        "type": "nominal",
+                        "title": "Origin"
+                    },
+                    {
+                        "field": "species",
+                        "type": "nominal",
+                        "title": "Dominant species"
+                    },
+                    {
+                        "field": "tonnes",
+                        "type": "quantitative",
+                        "title": "Tonnes to AU (2025)",
+                        "format": ",.0f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/coffee_origins.csv"
+            },
+            "mark": {
+                "type": "circle",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 1.5,
+                "opacity": 0.9
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "tonnes",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "domain": [
+                            0,
+                            32000
+                        ],
+                        "range": [
+                            80,
+                            800
+                        ]
+                    },
+                    "legend": null
+                },
+                "color": {
+                    "field": "species",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Arabica",
+                            "Robusta"
+                        ],
+                        "range": [
+                            "#2F5D50",
+                            "#A53F2B"
+                        ]
+                    },
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "country",
+                        "type": "nominal",
+                        "title": "Origin"
+                    },
+                    {
+                        "field": "species",
+                        "type": "nominal",
+                        "title": "Dominant species"
+                    },
+                    {
+                        "field": "tonnes",
+                        "type": "quantitative",
+                        "title": "Exported to AU (2025)",
+                        "format": ",.0f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 134,
+                        "lat": -25,
+                        "label": "AUSTRALIA"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "circle",
+                "color": "#2A1B14",
+                "size": 200,
+                "stroke": "#F5F1EA",
+                "strokeWidth": 2
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": 134,
+                        "lat": -38,
+                        "label": "AUSTRALIA"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "data/coffee_origins.csv"
+            },
+            "transform": [
+                {
+                    "filter": "datum.tonnes >= 5000"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "bottom",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2A1B14",
+                "dy": -16
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "country",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": -22,
+                        "lat": -20,
+                        "label": "Brazil supplies"
+                    },
+                    {
+                        "lon": -22,
+                        "lat": -26,
+                        "label": "\u2248 1 in every 4 tonnes"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

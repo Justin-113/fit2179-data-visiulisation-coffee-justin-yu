@@ -1,0 +1,79 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Horizontal bar chart ranking Australian states/territories by café & restaurant density per 10,000 residents. Companion to Vis 05 (map).",
+    "height": "container",
+    "padding": 16,
+    "data": {
+        "url": "data/cafes_by_state.csv"
+    },
+    "encoding": {
+        "y": {
+            "field": "state_code",
+            "type": "nominal",
+            "sort": "-x",
+            "axis": {
+                "title": null,
+                "labelFontSize": 13,
+                "labelFontWeight": 500,
+                "labelPadding": 8,
+                "domain": false,
+                "ticks": false
+            }
+        },
+        "x": {
+            "field": "density_per_10k",
+            "type": "quantitative",
+            "scale": {
+                "domain": [0, 30],
+                "nice": false
+            },
+            "axis": {
+                "title": "Cafés & restaurants per 10,000 residents",
+                "titleFontSize": 12,
+                "titlePadding": 14,
+                "labelFontSize": 11,
+                "values": [0, 5, 10, 15, 20, 25, 30],
+                "grid": true,
+                "gridDash": [2, 4]
+            }
+        },
+        "tooltip": [
+            { "field": "state", "type": "nominal", "title": "State" },
+            { "field": "state_code", "type": "nominal", "title": "Code" },
+            { "field": "cafes_restaurants", "type": "quantitative", "title": "Cafés + restaurants", "format": "," },
+            { "field": "population", "type": "quantitative", "title": "Population", "format": "," },
+            { "field": "density_per_10k", "type": "quantitative", "title": "Per 10k", "format": ".2f" }
+        ]
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "bar",
+                "cornerRadiusEnd": 2,
+                "color": "#2F5D50"
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "dx": 6,
+                "fontSize": 12,
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "text": {
+                    "field": "density_per_10k",
+                    "type": "quantitative",
+                    "format": ".1f"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

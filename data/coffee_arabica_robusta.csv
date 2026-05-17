@@ -1,0 +1,2045 @@
+country,year,species,production_bags_1000
+Albania,2015,Arabica,0.0
+Albania,2015,Robusta,0.0
+Albania,2016,Arabica,0.0
+Albania,2016,Robusta,0.0
+Albania,2017,Arabica,0.0
+Albania,2017,Robusta,0.0
+Albania,2018,Arabica,0.0
+Albania,2018,Robusta,0.0
+Albania,2019,Arabica,0.0
+Albania,2019,Robusta,0.0
+Albania,2020,Arabica,0.0
+Albania,2020,Robusta,0.0
+Albania,2021,Arabica,0.0
+Albania,2021,Robusta,0.0
+Albania,2022,Arabica,0.0
+Albania,2022,Robusta,0.0
+Albania,2023,Arabica,0.0
+Albania,2023,Robusta,0.0
+Albania,2024,Arabica,0.0
+Albania,2024,Robusta,0.0
+Albania,2025,Arabica,0.0
+Albania,2025,Robusta,0.0
+Algeria,2015,Arabica,0.0
+Algeria,2015,Robusta,0.0
+Algeria,2016,Arabica,0.0
+Algeria,2016,Robusta,0.0
+Algeria,2017,Arabica,0.0
+Algeria,2017,Robusta,0.0
+Algeria,2018,Arabica,0.0
+Algeria,2018,Robusta,0.0
+Algeria,2019,Arabica,0.0
+Algeria,2019,Robusta,0.0
+Algeria,2020,Arabica,0.0
+Algeria,2020,Robusta,0.0
+Algeria,2021,Arabica,0.0
+Algeria,2021,Robusta,0.0
+Algeria,2022,Arabica,0.0
+Algeria,2022,Robusta,0.0
+Algeria,2023,Arabica,0.0
+Algeria,2023,Robusta,0.0
+Algeria,2024,Arabica,0.0
+Algeria,2024,Robusta,0.0
+Algeria,2025,Arabica,0.0
+Algeria,2025,Robusta,0.0
+Angola,2015,Arabica,0.0
+Angola,2015,Robusta,25.0
+Angola,2016,Arabica,0.0
+Angola,2016,Robusta,20.0
+Angola,2017,Arabica,0.0
+Angola,2017,Robusta,19.0
+Angola,2018,Arabica,0.0
+Angola,2018,Robusta,20.0
+Angola,2019,Arabica,0.0
+Angola,2019,Robusta,32.0
+Angola,2020,Arabica,0.0
+Angola,2020,Robusta,30.0
+Angola,2021,Arabica,0.0
+Angola,2021,Robusta,30.0
+Angola,2022,Arabica,0.0
+Angola,2022,Robusta,20.0
+Angola,2023,Arabica,0.0
+Angola,2023,Robusta,30.0
+Angola,2024,Arabica,0.0
+Angola,2024,Robusta,45.0
+Angola,2025,Arabica,0.0
+Angola,2025,Robusta,50.0
+Argentina,2015,Arabica,0.0
+Argentina,2015,Robusta,0.0
+Argentina,2016,Arabica,0.0
+Argentina,2016,Robusta,0.0
+Argentina,2017,Arabica,0.0
+Argentina,2017,Robusta,0.0
+Argentina,2018,Arabica,0.0
+Argentina,2018,Robusta,0.0
+Argentina,2019,Arabica,0.0
+Argentina,2019,Robusta,0.0
+Argentina,2020,Arabica,0.0
+Argentina,2020,Robusta,0.0
+Argentina,2021,Arabica,0.0
+Argentina,2021,Robusta,0.0
+Argentina,2022,Arabica,0.0
+Argentina,2022,Robusta,0.0
+Argentina,2023,Arabica,0.0
+Argentina,2023,Robusta,0.0
+Argentina,2024,Arabica,0.0
+Argentina,2024,Robusta,0.0
+Argentina,2025,Arabica,0.0
+Argentina,2025,Robusta,0.0
+Armenia,2015,Arabica,0.0
+Armenia,2015,Robusta,0.0
+Armenia,2016,Arabica,0.0
+Armenia,2016,Robusta,0.0
+Armenia,2017,Arabica,0.0
+Armenia,2017,Robusta,0.0
+Armenia,2018,Arabica,0.0
+Armenia,2018,Robusta,0.0
+Armenia,2019,Arabica,0.0
+Armenia,2019,Robusta,0.0
+Armenia,2020,Arabica,0.0
+Armenia,2020,Robusta,0.0
+Armenia,2021,Arabica,0.0
+Armenia,2021,Robusta,0.0
+Armenia,2022,Arabica,0.0
+Armenia,2022,Robusta,0.0
+Armenia,2023,Arabica,0.0
+Armenia,2023,Robusta,0.0
+Armenia,2024,Arabica,0.0
+Armenia,2024,Robusta,0.0
+Armenia,2025,Arabica,0.0
+Armenia,2025,Robusta,0.0
+Australia,2015,Arabica,0.0
+Australia,2015,Robusta,0.0
+Australia,2016,Arabica,0.0
+Australia,2016,Robusta,0.0
+Australia,2017,Arabica,0.0
+Australia,2017,Robusta,0.0
+Australia,2018,Arabica,0.0
+Australia,2018,Robusta,0.0
+Australia,2019,Arabica,0.0
+Australia,2019,Robusta,0.0
+Australia,2020,Arabica,0.0
+Australia,2020,Robusta,0.0
+Australia,2021,Arabica,0.0
+Australia,2021,Robusta,0.0
+Australia,2022,Arabica,0.0
+Australia,2022,Robusta,0.0
+Australia,2023,Arabica,0.0
+Australia,2023,Robusta,0.0
+Australia,2024,Arabica,0.0
+Australia,2024,Robusta,0.0
+Australia,2025,Arabica,0.0
+Australia,2025,Robusta,0.0
+Benin,2015,Arabica,0.0
+Benin,2015,Robusta,0.0
+Benin,2016,Arabica,0.0
+Benin,2016,Robusta,0.0
+Benin,2017,Arabica,0.0
+Benin,2017,Robusta,0.0
+Benin,2018,Arabica,0.0
+Benin,2018,Robusta,0.0
+Benin,2019,Arabica,0.0
+Benin,2019,Robusta,0.0
+Benin,2020,Arabica,0.0
+Benin,2020,Robusta,0.0
+Benin,2021,Arabica,0.0
+Benin,2021,Robusta,0.0
+Benin,2022,Arabica,0.0
+Benin,2022,Robusta,0.0
+Benin,2023,Arabica,0.0
+Benin,2023,Robusta,0.0
+Benin,2024,Arabica,0.0
+Benin,2024,Robusta,0.0
+Benin,2025,Arabica,0.0
+Benin,2025,Robusta,0.0
+Bolivia,2015,Arabica,80.0
+Bolivia,2015,Robusta,0.0
+Bolivia,2016,Arabica,75.0
+Bolivia,2016,Robusta,0.0
+Bolivia,2017,Arabica,85.0
+Bolivia,2017,Robusta,0.0
+Bolivia,2018,Arabica,85.0
+Bolivia,2018,Robusta,0.0
+Bolivia,2019,Arabica,85.0
+Bolivia,2019,Robusta,0.0
+Bolivia,2020,Arabica,80.0
+Bolivia,2020,Robusta,0.0
+Bolivia,2021,Arabica,85.0
+Bolivia,2021,Robusta,0.0
+Bolivia,2022,Arabica,90.0
+Bolivia,2022,Robusta,0.0
+Bolivia,2023,Arabica,70.0
+Bolivia,2023,Robusta,0.0
+Bolivia,2024,Arabica,85.0
+Bolivia,2024,Robusta,0.0
+Bolivia,2025,Arabica,80.0
+Bolivia,2025,Robusta,0.0
+Bosnia and Herzegovina,2015,Arabica,0.0
+Bosnia and Herzegovina,2015,Robusta,0.0
+Bosnia and Herzegovina,2016,Arabica,0.0
+Bosnia and Herzegovina,2016,Robusta,0.0
+Bosnia and Herzegovina,2017,Arabica,0.0
+Bosnia and Herzegovina,2017,Robusta,0.0
+Bosnia and Herzegovina,2018,Arabica,0.0
+Bosnia and Herzegovina,2018,Robusta,0.0
+Bosnia and Herzegovina,2019,Arabica,0.0
+Bosnia and Herzegovina,2019,Robusta,0.0
+Bosnia and Herzegovina,2020,Arabica,0.0
+Bosnia and Herzegovina,2020,Robusta,0.0
+Bosnia and Herzegovina,2021,Arabica,0.0
+Bosnia and Herzegovina,2021,Robusta,0.0
+Bosnia and Herzegovina,2022,Arabica,0.0
+Bosnia and Herzegovina,2022,Robusta,0.0
+Bosnia and Herzegovina,2023,Arabica,0.0
+Bosnia and Herzegovina,2023,Robusta,0.0
+Bosnia and Herzegovina,2024,Arabica,0.0
+Bosnia and Herzegovina,2024,Robusta,0.0
+Bosnia and Herzegovina,2025,Arabica,0.0
+Bosnia and Herzegovina,2025,Robusta,0.0
+Brazil,2015,Arabica,36100.0
+Brazil,2015,Robusta,13300.0
+Brazil,2016,Arabica,45600.0
+Brazil,2016,Robusta,10500.0
+Brazil,2017,Arabica,39500.0
+Brazil,2017,Robusta,12600.0
+Brazil,2018,Arabica,49700.0
+Brazil,2018,Robusta,16800.0
+Brazil,2019,Arabica,42000.0
+Brazil,2019,Robusta,18500.0
+Brazil,2020,Arabica,49700.0
+Brazil,2020,Robusta,20200.0
+Brazil,2021,Arabica,36400.0
+Brazil,2021,Robusta,21700.0
+Brazil,2022,Arabica,39800.0
+Brazil,2022,Robusta,22800.0
+Brazil,2023,Arabica,44900.0
+Brazil,2023,Robusta,21400.0
+Brazil,2024,Arabica,44000.0
+Brazil,2024,Robusta,21000.0
+Brazil,2025,Arabica,38000.0
+Brazil,2025,Robusta,25000.0
+Burundi,2015,Arabica,240.0
+Burundi,2015,Robusta,0.0
+Burundi,2016,Arabica,200.0
+Burundi,2016,Robusta,0.0
+Burundi,2017,Arabica,205.0
+Burundi,2017,Robusta,0.0
+Burundi,2018,Arabica,205.0
+Burundi,2018,Robusta,0.0
+Burundi,2019,Arabica,265.0
+Burundi,2019,Robusta,0.0
+Burundi,2020,Arabica,230.0
+Burundi,2020,Robusta,0.0
+Burundi,2021,Arabica,165.0
+Burundi,2021,Robusta,0.0
+Burundi,2022,Arabica,175.0
+Burundi,2022,Robusta,0.0
+Burundi,2023,Arabica,140.0
+Burundi,2023,Robusta,0.0
+Burundi,2024,Arabica,115.0
+Burundi,2024,Robusta,0.0
+Burundi,2025,Arabica,125.0
+Burundi,2025,Robusta,0.0
+Cameroon,2015,Arabica,50.0
+Cameroon,2015,Robusta,575.0
+Cameroon,2016,Arabica,50.0
+Cameroon,2016,Robusta,450.0
+Cameroon,2017,Arabica,50.0
+Cameroon,2017,Robusta,375.0
+Cameroon,2018,Arabica,50.0
+Cameroon,2018,Robusta,400.0
+Cameroon,2019,Arabica,50.0
+Cameroon,2019,Robusta,425.0
+Cameroon,2020,Arabica,50.0
+Cameroon,2020,Robusta,350.0
+Cameroon,2021,Arabica,25.0
+Cameroon,2021,Robusta,250.0
+Cameroon,2022,Arabica,50.0
+Cameroon,2022,Robusta,220.0
+Cameroon,2023,Arabica,25.0
+Cameroon,2023,Robusta,190.0
+Cameroon,2024,Arabica,25.0
+Cameroon,2024,Robusta,180.0
+Cameroon,2025,Arabica,25.0
+Cameroon,2025,Robusta,200.0
+Canada,2015,Arabica,0.0
+Canada,2015,Robusta,0.0
+Canada,2016,Arabica,0.0
+Canada,2016,Robusta,0.0
+Canada,2017,Arabica,0.0
+Canada,2017,Robusta,0.0
+Canada,2018,Arabica,0.0
+Canada,2018,Robusta,0.0
+Canada,2019,Arabica,0.0
+Canada,2019,Robusta,0.0
+Canada,2020,Arabica,0.0
+Canada,2020,Robusta,0.0
+Canada,2021,Arabica,0.0
+Canada,2021,Robusta,0.0
+Canada,2022,Arabica,0.0
+Canada,2022,Robusta,0.0
+Canada,2023,Arabica,0.0
+Canada,2023,Robusta,0.0
+Canada,2024,Arabica,0.0
+Canada,2024,Robusta,0.0
+Canada,2025,Arabica,0.0
+Canada,2025,Robusta,0.0
+Central African Republic,2015,Arabica,0.0
+Central African Republic,2015,Robusta,8.0
+Central African Republic,2016,Arabica,0.0
+Central African Republic,2016,Robusta,5.0
+Central African Republic,2017,Arabica,0.0
+Central African Republic,2017,Robusta,3.0
+Central African Republic,2018,Arabica,0.0
+Central African Republic,2018,Robusta,2.0
+Central African Republic,2019,Arabica,0.0
+Central African Republic,2019,Robusta,0.0
+Central African Republic,2020,Arabica,0.0
+Central African Republic,2020,Robusta,0.0
+Central African Republic,2021,Arabica,0.0
+Central African Republic,2021,Robusta,0.0
+Central African Republic,2022,Arabica,0.0
+Central African Republic,2022,Robusta,0.0
+Central African Republic,2023,Arabica,0.0
+Central African Republic,2023,Robusta,0.0
+Central African Republic,2024,Arabica,0.0
+Central African Republic,2024,Robusta,0.0
+Central African Republic,2025,Arabica,0.0
+Central African Republic,2025,Robusta,0.0
+Chile,2015,Arabica,0.0
+Chile,2015,Robusta,0.0
+Chile,2016,Arabica,0.0
+Chile,2016,Robusta,0.0
+Chile,2017,Arabica,0.0
+Chile,2017,Robusta,0.0
+Chile,2018,Arabica,0.0
+Chile,2018,Robusta,0.0
+Chile,2019,Arabica,0.0
+Chile,2019,Robusta,0.0
+Chile,2020,Arabica,0.0
+Chile,2020,Robusta,0.0
+Chile,2021,Arabica,0.0
+Chile,2021,Robusta,0.0
+Chile,2022,Arabica,0.0
+Chile,2022,Robusta,0.0
+Chile,2023,Arabica,0.0
+Chile,2023,Robusta,0.0
+Chile,2024,Arabica,0.0
+Chile,2024,Robusta,0.0
+Chile,2025,Arabica,0.0
+Chile,2025,Robusta,0.0
+China,2015,Arabica,1925.0
+China,2015,Robusta,0.0
+China,2016,Arabica,1900.0
+China,2016,Robusta,0.0
+China,2017,Arabica,1925.0
+China,2017,Robusta,0.0
+China,2018,Arabica,1925.0
+China,2018,Robusta,0.0
+China,2019,Arabica,2000.0
+China,2019,Robusta,0.0
+China,2020,Arabica,1900.0
+China,2020,Robusta,0.0
+China,2021,Arabica,1800.0
+China,2021,Robusta,0.0
+China,2022,Arabica,1800.0
+China,2022,Robusta,0.0
+China,2023,Arabica,1800.0
+China,2023,Robusta,0.0
+China,2024,Arabica,1900.0
+China,2024,Robusta,0.0
+China,2025,Arabica,1900.0
+China,2025,Robusta,0.0
+Colombia,2015,Arabica,14000.0
+Colombia,2015,Robusta,0.0
+Colombia,2016,Arabica,14600.0
+Colombia,2016,Robusta,0.0
+Colombia,2017,Arabica,13825.0
+Colombia,2017,Robusta,0.0
+Colombia,2018,Arabica,13870.0
+Colombia,2018,Robusta,0.0
+Colombia,2019,Arabica,14100.0
+Colombia,2019,Robusta,0.0
+Colombia,2020,Arabica,13400.0
+Colombia,2020,Robusta,0.0
+Colombia,2021,Arabica,11800.0
+Colombia,2021,Robusta,0.0
+Colombia,2022,Arabica,10700.0
+Colombia,2022,Robusta,0.0
+Colombia,2023,Arabica,12760.0
+Colombia,2023,Robusta,0.0
+Colombia,2024,Arabica,14800.0
+Colombia,2024,Robusta,0.0
+Colombia,2025,Arabica,13800.0
+Colombia,2025,Robusta,0.0
+Congo (Brazzaville),2015,Arabica,0.0
+Congo (Brazzaville),2015,Robusta,0.0
+Congo (Brazzaville),2016,Arabica,0.0
+Congo (Brazzaville),2016,Robusta,0.0
+Congo (Brazzaville),2017,Arabica,0.0
+Congo (Brazzaville),2017,Robusta,0.0
+Congo (Brazzaville),2018,Arabica,0.0
+Congo (Brazzaville),2018,Robusta,0.0
+Congo (Brazzaville),2019,Arabica,0.0
+Congo (Brazzaville),2019,Robusta,0.0
+Congo (Brazzaville),2020,Arabica,0.0
+Congo (Brazzaville),2020,Robusta,0.0
+Congo (Brazzaville),2021,Arabica,0.0
+Congo (Brazzaville),2021,Robusta,0.0
+Congo (Brazzaville),2022,Arabica,0.0
+Congo (Brazzaville),2022,Robusta,0.0
+Congo (Brazzaville),2023,Arabica,0.0
+Congo (Brazzaville),2023,Robusta,0.0
+Congo (Brazzaville),2024,Arabica,0.0
+Congo (Brazzaville),2024,Robusta,0.0
+Congo (Brazzaville),2025,Arabica,0.0
+Congo (Brazzaville),2025,Robusta,0.0
+Congo (Kinshasa),2015,Arabica,70.0
+Congo (Kinshasa),2015,Robusta,150.0
+Congo (Kinshasa),2016,Arabica,70.0
+Congo (Kinshasa),2016,Robusta,160.0
+Congo (Kinshasa),2017,Arabica,75.0
+Congo (Kinshasa),2017,Robusta,175.0
+Congo (Kinshasa),2018,Arabica,70.0
+Congo (Kinshasa),2018,Robusta,175.0
+Congo (Kinshasa),2019,Arabica,75.0
+Congo (Kinshasa),2019,Robusta,180.0
+Congo (Kinshasa),2020,Arabica,75.0
+Congo (Kinshasa),2020,Robusta,175.0
+Congo (Kinshasa),2021,Arabica,70.0
+Congo (Kinshasa),2021,Robusta,200.0
+Congo (Kinshasa),2022,Arabica,75.0
+Congo (Kinshasa),2022,Robusta,180.0
+Congo (Kinshasa),2023,Arabica,75.0
+Congo (Kinshasa),2023,Robusta,150.0
+Congo (Kinshasa),2024,Arabica,50.0
+Congo (Kinshasa),2024,Robusta,145.0
+Congo (Kinshasa),2025,Arabica,50.0
+Congo (Kinshasa),2025,Robusta,150.0
+Costa Rica,2015,Arabica,1625.0
+Costa Rica,2015,Robusta,0.0
+Costa Rica,2016,Arabica,1300.0
+Costa Rica,2016,Robusta,0.0
+Costa Rica,2017,Arabica,1525.0
+Costa Rica,2017,Robusta,0.0
+Costa Rica,2018,Arabica,1250.0
+Costa Rica,2018,Robusta,0.0
+Costa Rica,2019,Arabica,1466.0
+Costa Rica,2019,Robusta,0.0
+Costa Rica,2020,Arabica,1472.0
+Costa Rica,2020,Robusta,0.0
+Costa Rica,2021,Arabica,1215.0
+Costa Rica,2021,Robusta,0.0
+Costa Rica,2022,Arabica,1100.0
+Costa Rica,2022,Robusta,0.0
+Costa Rica,2023,Arabica,1158.0
+Costa Rica,2023,Robusta,0.0
+Costa Rica,2024,Arabica,1298.0
+Costa Rica,2024,Robusta,0.0
+Costa Rica,2025,Arabica,1170.0
+Costa Rica,2025,Robusta,0.0
+Cote d'Ivoire,2015,Arabica,0.0
+Cote d'Ivoire,2015,Robusta,1600.0
+Cote d'Ivoire,2016,Arabica,0.0
+Cote d'Ivoire,2016,Robusta,1090.0
+Cote d'Ivoire,2017,Arabica,0.0
+Cote d'Ivoire,2017,Robusta,1250.0
+Cote d'Ivoire,2018,Arabica,0.0
+Cote d'Ivoire,2018,Robusta,2000.0
+Cote d'Ivoire,2019,Arabica,0.0
+Cote d'Ivoire,2019,Robusta,1775.0
+Cote d'Ivoire,2020,Arabica,0.0
+Cote d'Ivoire,2020,Robusta,910.0
+Cote d'Ivoire,2021,Arabica,0.0
+Cote d'Ivoire,2021,Robusta,1110.0
+Cote d'Ivoire,2022,Arabica,0.0
+Cote d'Ivoire,2022,Robusta,1020.0
+Cote d'Ivoire,2023,Arabica,0.0
+Cote d'Ivoire,2023,Robusta,1325.0
+Cote d'Ivoire,2024,Arabica,0.0
+Cote d'Ivoire,2024,Robusta,650.0
+Cote d'Ivoire,2025,Arabica,0.0
+Cote d'Ivoire,2025,Robusta,1300.0
+Croatia,2015,Arabica,0.0
+Croatia,2015,Robusta,0.0
+Croatia,2016,Arabica,0.0
+Croatia,2016,Robusta,0.0
+Croatia,2017,Arabica,0.0
+Croatia,2017,Robusta,0.0
+Croatia,2018,Arabica,0.0
+Croatia,2018,Robusta,0.0
+Croatia,2019,Arabica,0.0
+Croatia,2019,Robusta,0.0
+Croatia,2020,Arabica,0.0
+Croatia,2020,Robusta,0.0
+Croatia,2021,Arabica,0.0
+Croatia,2021,Robusta,0.0
+Croatia,2022,Arabica,0.0
+Croatia,2022,Robusta,0.0
+Croatia,2023,Arabica,0.0
+Croatia,2023,Robusta,0.0
+Croatia,2024,Arabica,0.0
+Croatia,2024,Robusta,0.0
+Croatia,2025,Arabica,0.0
+Croatia,2025,Robusta,0.0
+Cuba,2015,Arabica,150.0
+Cuba,2015,Robusta,0.0
+Cuba,2016,Arabica,150.0
+Cuba,2016,Robusta,0.0
+Cuba,2017,Arabica,100.0
+Cuba,2017,Robusta,0.0
+Cuba,2018,Arabica,110.0
+Cuba,2018,Robusta,0.0
+Cuba,2019,Arabica,90.0
+Cuba,2019,Robusta,0.0
+Cuba,2020,Arabica,100.0
+Cuba,2020,Robusta,0.0
+Cuba,2021,Arabica,100.0
+Cuba,2021,Robusta,0.0
+Cuba,2022,Arabica,100.0
+Cuba,2022,Robusta,0.0
+Cuba,2023,Arabica,100.0
+Cuba,2023,Robusta,0.0
+Cuba,2024,Arabica,100.0
+Cuba,2024,Robusta,0.0
+Cuba,2025,Arabica,100.0
+Cuba,2025,Robusta,0.0
+Dominican Republic,2015,Arabica,225.0
+Dominican Republic,2015,Robusta,0.0
+Dominican Republic,2016,Arabica,225.0
+Dominican Republic,2016,Robusta,0.0
+Dominican Republic,2017,Arabica,125.0
+Dominican Republic,2017,Robusta,0.0
+Dominican Republic,2018,Arabica,125.0
+Dominican Republic,2018,Robusta,0.0
+Dominican Republic,2019,Arabica,120.0
+Dominican Republic,2019,Robusta,0.0
+Dominican Republic,2020,Arabica,120.0
+Dominican Republic,2020,Robusta,0.0
+Dominican Republic,2021,Arabica,125.0
+Dominican Republic,2021,Robusta,0.0
+Dominican Republic,2022,Arabica,125.0
+Dominican Republic,2022,Robusta,0.0
+Dominican Republic,2023,Arabica,125.0
+Dominican Republic,2023,Robusta,0.0
+Dominican Republic,2024,Arabica,125.0
+Dominican Republic,2024,Robusta,0.0
+Dominican Republic,2025,Arabica,125.0
+Dominican Republic,2025,Robusta,0.0
+Ecuador,2015,Arabica,100.0
+Ecuador,2015,Robusta,125.0
+Ecuador,2016,Arabica,70.0
+Ecuador,2016,Robusta,100.0
+Ecuador,2017,Arabica,95.0
+Ecuador,2017,Robusta,110.0
+Ecuador,2018,Arabica,140.0
+Ecuador,2018,Robusta,115.0
+Ecuador,2019,Arabica,155.0
+Ecuador,2019,Robusta,120.0
+Ecuador,2020,Arabica,88.0
+Ecuador,2020,Robusta,167.0
+Ecuador,2021,Arabica,90.0
+Ecuador,2021,Robusta,170.0
+Ecuador,2022,Arabica,113.0
+Ecuador,2022,Robusta,241.0
+Ecuador,2023,Arabica,120.0
+Ecuador,2023,Robusta,250.0
+Ecuador,2024,Arabica,105.0
+Ecuador,2024,Robusta,250.0
+Ecuador,2025,Arabica,100.0
+Ecuador,2025,Robusta,250.0
+Egypt,2015,Arabica,0.0
+Egypt,2015,Robusta,0.0
+Egypt,2016,Arabica,0.0
+Egypt,2016,Robusta,0.0
+Egypt,2017,Arabica,0.0
+Egypt,2017,Robusta,0.0
+Egypt,2018,Arabica,0.0
+Egypt,2018,Robusta,0.0
+Egypt,2019,Arabica,0.0
+Egypt,2019,Robusta,0.0
+Egypt,2020,Arabica,0.0
+Egypt,2020,Robusta,0.0
+Egypt,2021,Arabica,0.0
+Egypt,2021,Robusta,0.0
+Egypt,2022,Arabica,0.0
+Egypt,2022,Robusta,0.0
+Egypt,2023,Arabica,0.0
+Egypt,2023,Robusta,0.0
+Egypt,2024,Arabica,0.0
+Egypt,2024,Robusta,0.0
+Egypt,2025,Arabica,0.0
+Egypt,2025,Robusta,0.0
+El Salvador,2015,Arabica,560.0
+El Salvador,2015,Robusta,0.0
+El Salvador,2016,Arabica,600.0
+El Salvador,2016,Robusta,0.0
+El Salvador,2017,Arabica,660.0
+El Salvador,2017,Robusta,0.0
+El Salvador,2018,Arabica,654.0
+El Salvador,2018,Robusta,0.0
+El Salvador,2019,Arabica,510.0
+El Salvador,2019,Robusta,0.0
+El Salvador,2020,Arabica,540.0
+El Salvador,2020,Robusta,0.0
+El Salvador,2021,Arabica,600.0
+El Salvador,2021,Robusta,0.0
+El Salvador,2022,Arabica,550.0
+El Salvador,2022,Robusta,0.0
+El Salvador,2023,Arabica,604.0
+El Salvador,2023,Robusta,0.0
+El Salvador,2024,Arabica,450.0
+El Salvador,2024,Robusta,0.0
+El Salvador,2025,Arabica,500.0
+El Salvador,2025,Robusta,0.0
+Equatorial Guinea,2015,Arabica,0.0
+Equatorial Guinea,2015,Robusta,0.0
+Equatorial Guinea,2016,Arabica,0.0
+Equatorial Guinea,2016,Robusta,0.0
+Equatorial Guinea,2017,Arabica,0.0
+Equatorial Guinea,2017,Robusta,0.0
+Equatorial Guinea,2018,Arabica,0.0
+Equatorial Guinea,2018,Robusta,0.0
+Equatorial Guinea,2019,Arabica,0.0
+Equatorial Guinea,2019,Robusta,0.0
+Equatorial Guinea,2020,Arabica,0.0
+Equatorial Guinea,2020,Robusta,0.0
+Equatorial Guinea,2021,Arabica,0.0
+Equatorial Guinea,2021,Robusta,0.0
+Equatorial Guinea,2022,Arabica,0.0
+Equatorial Guinea,2022,Robusta,0.0
+Equatorial Guinea,2023,Arabica,0.0
+Equatorial Guinea,2023,Robusta,0.0
+Equatorial Guinea,2024,Arabica,0.0
+Equatorial Guinea,2024,Robusta,0.0
+Equatorial Guinea,2025,Arabica,0.0
+Equatorial Guinea,2025,Robusta,0.0
+Ethiopia,2015,Arabica,6510.0
+Ethiopia,2015,Robusta,0.0
+Ethiopia,2016,Arabica,6943.0
+Ethiopia,2016,Robusta,0.0
+Ethiopia,2017,Arabica,7055.0
+Ethiopia,2017,Robusta,0.0
+Ethiopia,2018,Arabica,7350.0
+Ethiopia,2018,Robusta,0.0
+Ethiopia,2019,Arabica,7475.0
+Ethiopia,2019,Robusta,0.0
+Ethiopia,2020,Arabica,7600.0
+Ethiopia,2020,Robusta,0.0
+Ethiopia,2021,Arabica,8150.0
+Ethiopia,2021,Robusta,0.0
+Ethiopia,2022,Arabica,7300.0
+Ethiopia,2022,Robusta,0.0
+Ethiopia,2023,Arabica,9130.0
+Ethiopia,2023,Robusta,0.0
+Ethiopia,2024,Arabica,11100.0
+Ethiopia,2024,Robusta,0.0
+Ethiopia,2025,Arabica,11560.0
+Ethiopia,2025,Robusta,0.0
+European Union,2015,Arabica,0.0
+European Union,2015,Robusta,0.0
+European Union,2016,Arabica,0.0
+European Union,2016,Robusta,0.0
+European Union,2017,Arabica,0.0
+European Union,2017,Robusta,0.0
+European Union,2018,Arabica,0.0
+European Union,2018,Robusta,0.0
+European Union,2019,Arabica,0.0
+European Union,2019,Robusta,0.0
+European Union,2020,Arabica,0.0
+European Union,2020,Robusta,0.0
+European Union,2021,Arabica,0.0
+European Union,2021,Robusta,0.0
+European Union,2022,Arabica,0.0
+European Union,2022,Robusta,0.0
+European Union,2023,Arabica,0.0
+European Union,2023,Robusta,0.0
+European Union,2024,Arabica,0.0
+European Union,2024,Robusta,0.0
+European Union,2025,Arabica,0.0
+European Union,2025,Robusta,0.0
+Gabon,2015,Arabica,0.0
+Gabon,2015,Robusta,0.0
+Gabon,2016,Arabica,0.0
+Gabon,2016,Robusta,0.0
+Gabon,2017,Arabica,0.0
+Gabon,2017,Robusta,0.0
+Gabon,2018,Arabica,0.0
+Gabon,2018,Robusta,0.0
+Gabon,2019,Arabica,0.0
+Gabon,2019,Robusta,0.0
+Gabon,2020,Arabica,0.0
+Gabon,2020,Robusta,0.0
+Gabon,2021,Arabica,0.0
+Gabon,2021,Robusta,0.0
+Gabon,2022,Arabica,0.0
+Gabon,2022,Robusta,0.0
+Gabon,2023,Arabica,0.0
+Gabon,2023,Robusta,0.0
+Gabon,2024,Arabica,0.0
+Gabon,2024,Robusta,0.0
+Gabon,2025,Arabica,0.0
+Gabon,2025,Robusta,0.0
+Georgia,2015,Arabica,0.0
+Georgia,2015,Robusta,0.0
+Georgia,2016,Arabica,0.0
+Georgia,2016,Robusta,0.0
+Georgia,2017,Arabica,0.0
+Georgia,2017,Robusta,0.0
+Georgia,2018,Arabica,0.0
+Georgia,2018,Robusta,0.0
+Georgia,2019,Arabica,0.0
+Georgia,2019,Robusta,0.0
+Georgia,2020,Arabica,0.0
+Georgia,2020,Robusta,0.0
+Georgia,2021,Arabica,0.0
+Georgia,2021,Robusta,0.0
+Georgia,2022,Arabica,0.0
+Georgia,2022,Robusta,0.0
+Georgia,2023,Arabica,0.0
+Georgia,2023,Robusta,0.0
+Georgia,2024,Arabica,0.0
+Georgia,2024,Robusta,0.0
+Georgia,2025,Arabica,0.0
+Georgia,2025,Robusta,0.0
+Ghana,2015,Arabica,0.0
+Ghana,2015,Robusta,1.0
+Ghana,2016,Arabica,0.0
+Ghana,2016,Robusta,1.0
+Ghana,2017,Arabica,0.0
+Ghana,2017,Robusta,1.0
+Ghana,2018,Arabica,0.0
+Ghana,2018,Robusta,0.0
+Ghana,2019,Arabica,0.0
+Ghana,2019,Robusta,0.0
+Ghana,2020,Arabica,0.0
+Ghana,2020,Robusta,0.0
+Ghana,2021,Arabica,0.0
+Ghana,2021,Robusta,0.0
+Ghana,2022,Arabica,0.0
+Ghana,2022,Robusta,0.0
+Ghana,2023,Arabica,0.0
+Ghana,2023,Robusta,0.0
+Ghana,2024,Arabica,0.0
+Ghana,2024,Robusta,0.0
+Ghana,2025,Arabica,0.0
+Ghana,2025,Robusta,0.0
+Guatemala,2015,Arabica,3125.0
+Guatemala,2015,Robusta,170.0
+Guatemala,2016,Arabica,3400.0
+Guatemala,2016,Robusta,170.0
+Guatemala,2017,Arabica,3600.0
+Guatemala,2017,Robusta,180.0
+Guatemala,2018,Arabica,3520.0
+Guatemala,2018,Robusta,250.0
+Guatemala,2019,Arabica,3515.0
+Guatemala,2019,Robusta,130.0
+Guatemala,2020,Arabica,3810.0
+Guatemala,2020,Robusta,120.0
+Guatemala,2021,Arabica,3410.0
+Guatemala,2021,Robusta,130.0
+Guatemala,2022,Arabica,3150.0
+Guatemala,2022,Robusta,120.0
+Guatemala,2023,Arabica,3339.0
+Guatemala,2023,Robusta,130.0
+Guatemala,2024,Arabica,3075.0
+Guatemala,2024,Robusta,130.0
+Guatemala,2025,Arabica,3410.0
+Guatemala,2025,Robusta,130.0
+Guinea,2015,Arabica,0.0
+Guinea,2015,Robusta,280.0
+Guinea,2016,Arabica,0.0
+Guinea,2016,Robusta,200.0
+Guinea,2017,Arabica,0.0
+Guinea,2017,Robusta,190.0
+Guinea,2018,Arabica,0.0
+Guinea,2018,Robusta,70.0
+Guinea,2019,Arabica,0.0
+Guinea,2019,Robusta,145.0
+Guinea,2020,Arabica,0.0
+Guinea,2020,Robusta,70.0
+Guinea,2021,Arabica,0.0
+Guinea,2021,Robusta,300.0
+Guinea,2022,Arabica,0.0
+Guinea,2022,Robusta,100.0
+Guinea,2023,Arabica,0.0
+Guinea,2023,Robusta,190.0
+Guinea,2024,Arabica,0.0
+Guinea,2024,Robusta,175.0
+Guinea,2025,Arabica,0.0
+Guinea,2025,Robusta,190.0
+Guyana,2015,Arabica,0.0
+Guyana,2015,Robusta,0.0
+Guyana,2016,Arabica,0.0
+Guyana,2016,Robusta,0.0
+Guyana,2017,Arabica,0.0
+Guyana,2017,Robusta,0.0
+Guyana,2018,Arabica,0.0
+Guyana,2018,Robusta,0.0
+Guyana,2019,Arabica,0.0
+Guyana,2019,Robusta,0.0
+Guyana,2020,Arabica,0.0
+Guyana,2020,Robusta,0.0
+Guyana,2021,Arabica,0.0
+Guyana,2021,Robusta,0.0
+Guyana,2022,Arabica,0.0
+Guyana,2022,Robusta,0.0
+Guyana,2023,Arabica,0.0
+Guyana,2023,Robusta,0.0
+Guyana,2024,Arabica,0.0
+Guyana,2024,Robusta,0.0
+Guyana,2025,Arabica,0.0
+Guyana,2025,Robusta,0.0
+Haiti,2015,Arabica,0.0
+Haiti,2015,Robusta,0.0
+Haiti,2016,Arabica,0.0
+Haiti,2016,Robusta,0.0
+Haiti,2017,Arabica,0.0
+Haiti,2017,Robusta,0.0
+Haiti,2018,Arabica,0.0
+Haiti,2018,Robusta,0.0
+Haiti,2019,Arabica,0.0
+Haiti,2019,Robusta,0.0
+Haiti,2020,Arabica,0.0
+Haiti,2020,Robusta,0.0
+Haiti,2021,Arabica,0.0
+Haiti,2021,Robusta,0.0
+Haiti,2022,Arabica,0.0
+Haiti,2022,Robusta,0.0
+Haiti,2023,Arabica,0.0
+Haiti,2023,Robusta,0.0
+Haiti,2024,Arabica,0.0
+Haiti,2024,Robusta,0.0
+Haiti,2025,Arabica,0.0
+Haiti,2025,Robusta,0.0
+Honduras,2015,Arabica,5300.0
+Honduras,2015,Robusta,0.0
+Honduras,2016,Arabica,7510.0
+Honduras,2016,Robusta,0.0
+Honduras,2017,Arabica,7600.0
+Honduras,2017,Robusta,0.0
+Honduras,2018,Arabica,7100.0
+Honduras,2018,Robusta,0.0
+Honduras,2019,Arabica,5200.0
+Honduras,2019,Robusta,0.0
+Honduras,2020,Arabica,6500.0
+Honduras,2020,Robusta,0.0
+Honduras,2021,Arabica,4800.0
+Honduras,2021,Robusta,0.0
+Honduras,2022,Arabica,5700.0
+Honduras,2022,Robusta,0.0
+Honduras,2023,Arabica,5050.0
+Honduras,2023,Robusta,0.0
+Honduras,2024,Arabica,5000.0
+Honduras,2024,Robusta,0.0
+Honduras,2025,Arabica,5800.0
+Honduras,2025,Robusta,0.0
+India,2015,Arabica,1725.0
+India,2015,Robusta,4075.0
+India,2016,Arabica,1583.0
+India,2016,Robusta,3617.0
+India,2017,Arabica,1583.0
+India,2017,Robusta,3683.0
+India,2018,Arabica,1583.0
+India,2018,Robusta,3742.0
+India,2019,Arabica,1450.0
+India,2019,Robusta,3517.0
+India,2020,Arabica,1650.0
+India,2020,Robusta,3917.0
+India,2021,Arabica,1583.0
+India,2021,Robusta,4117.0
+India,2022,Arabica,1667.0
+India,2022,Robusta,4200.0
+India,2023,Arabica,1480.0
+India,2023,Robusta,5080.0
+India,2024,Arabica,1400.0
+India,2024,Robusta,4800.0
+India,2025,Arabica,1350.0
+India,2025,Robusta,4700.0
+Indonesia,2015,Arabica,1500.0
+Indonesia,2015,Robusta,10600.0
+Indonesia,2016,Arabica,1300.0
+Indonesia,2016,Robusta,9300.0
+Indonesia,2017,Arabica,1000.0
+Indonesia,2017,Robusta,9400.0
+Indonesia,2018,Arabica,1200.0
+Indonesia,2018,Robusta,9400.0
+Indonesia,2019,Arabica,1250.0
+Indonesia,2019,Robusta,9450.0
+Indonesia,2020,Arabica,1300.0
+Indonesia,2020,Robusta,9400.0
+Indonesia,2021,Arabica,1280.0
+Indonesia,2021,Robusta,9300.0
+Indonesia,2022,Arabica,1200.0
+Indonesia,2022,Robusta,9500.0
+Indonesia,2023,Arabica,1350.0
+Indonesia,2023,Robusta,6800.0
+Indonesia,2024,Arabica,1400.0
+Indonesia,2024,Robusta,9300.0
+Indonesia,2025,Arabica,1450.0
+Indonesia,2025,Robusta,11000.0
+Iran,2015,Arabica,0.0
+Iran,2015,Robusta,0.0
+Iran,2016,Arabica,0.0
+Iran,2016,Robusta,0.0
+Iran,2017,Arabica,0.0
+Iran,2017,Robusta,0.0
+Iran,2018,Arabica,0.0
+Iran,2018,Robusta,0.0
+Iran,2019,Arabica,0.0
+Iran,2019,Robusta,0.0
+Iran,2020,Arabica,0.0
+Iran,2020,Robusta,0.0
+Iran,2021,Arabica,0.0
+Iran,2021,Robusta,0.0
+Iran,2022,Arabica,0.0
+Iran,2022,Robusta,0.0
+Iran,2023,Arabica,0.0
+Iran,2023,Robusta,0.0
+Iran,2024,Arabica,0.0
+Iran,2024,Robusta,0.0
+Iran,2025,Arabica,0.0
+Iran,2025,Robusta,0.0
+Jamaica,2015,Arabica,27.0
+Jamaica,2015,Robusta,0.0
+Jamaica,2016,Arabica,16.0
+Jamaica,2016,Robusta,0.0
+Jamaica,2017,Arabica,16.0
+Jamaica,2017,Robusta,0.0
+Jamaica,2018,Arabica,15.0
+Jamaica,2018,Robusta,0.0
+Jamaica,2019,Arabica,16.0
+Jamaica,2019,Robusta,0.0
+Jamaica,2020,Arabica,15.0
+Jamaica,2020,Robusta,0.0
+Jamaica,2021,Arabica,15.0
+Jamaica,2021,Robusta,0.0
+Jamaica,2022,Arabica,18.0
+Jamaica,2022,Robusta,0.0
+Jamaica,2023,Arabica,19.0
+Jamaica,2023,Robusta,0.0
+Jamaica,2024,Arabica,15.0
+Jamaica,2024,Robusta,0.0
+Jamaica,2025,Arabica,20.0
+Jamaica,2025,Robusta,0.0
+Japan,2015,Arabica,0.0
+Japan,2015,Robusta,0.0
+Japan,2016,Arabica,0.0
+Japan,2016,Robusta,0.0
+Japan,2017,Arabica,0.0
+Japan,2017,Robusta,0.0
+Japan,2018,Arabica,0.0
+Japan,2018,Robusta,0.0
+Japan,2019,Arabica,0.0
+Japan,2019,Robusta,0.0
+Japan,2020,Arabica,0.0
+Japan,2020,Robusta,0.0
+Japan,2021,Arabica,0.0
+Japan,2021,Robusta,0.0
+Japan,2022,Arabica,0.0
+Japan,2022,Robusta,0.0
+Japan,2023,Arabica,0.0
+Japan,2023,Robusta,0.0
+Japan,2024,Arabica,0.0
+Japan,2024,Robusta,0.0
+Japan,2025,Arabica,0.0
+Japan,2025,Robusta,0.0
+Jordan,2015,Arabica,0.0
+Jordan,2015,Robusta,0.0
+Jordan,2016,Arabica,0.0
+Jordan,2016,Robusta,0.0
+Jordan,2017,Arabica,0.0
+Jordan,2017,Robusta,0.0
+Jordan,2018,Arabica,0.0
+Jordan,2018,Robusta,0.0
+Jordan,2019,Arabica,0.0
+Jordan,2019,Robusta,0.0
+Jordan,2020,Arabica,0.0
+Jordan,2020,Robusta,0.0
+Jordan,2021,Arabica,0.0
+Jordan,2021,Robusta,0.0
+Jordan,2022,Arabica,0.0
+Jordan,2022,Robusta,0.0
+Jordan,2023,Arabica,0.0
+Jordan,2023,Robusta,0.0
+Jordan,2024,Arabica,0.0
+Jordan,2024,Robusta,0.0
+Jordan,2025,Arabica,0.0
+Jordan,2025,Robusta,0.0
+Kazakhstan,2015,Arabica,0.0
+Kazakhstan,2015,Robusta,0.0
+Kazakhstan,2016,Arabica,0.0
+Kazakhstan,2016,Robusta,0.0
+Kazakhstan,2017,Arabica,0.0
+Kazakhstan,2017,Robusta,0.0
+Kazakhstan,2018,Arabica,0.0
+Kazakhstan,2018,Robusta,0.0
+Kazakhstan,2019,Arabica,0.0
+Kazakhstan,2019,Robusta,0.0
+Kazakhstan,2020,Arabica,0.0
+Kazakhstan,2020,Robusta,0.0
+Kazakhstan,2021,Arabica,0.0
+Kazakhstan,2021,Robusta,0.0
+Kazakhstan,2022,Arabica,0.0
+Kazakhstan,2022,Robusta,0.0
+Kazakhstan,2023,Arabica,0.0
+Kazakhstan,2023,Robusta,0.0
+Kazakhstan,2024,Arabica,0.0
+Kazakhstan,2024,Robusta,0.0
+Kazakhstan,2025,Arabica,0.0
+Kazakhstan,2025,Robusta,0.0
+Kenya,2015,Arabica,750.0
+Kenya,2015,Robusta,0.0
+Kenya,2016,Arabica,850.0
+Kenya,2016,Robusta,0.0
+Kenya,2017,Arabica,720.0
+Kenya,2017,Robusta,0.0
+Kenya,2018,Arabica,850.0
+Kenya,2018,Robusta,0.0
+Kenya,2019,Arabica,750.0
+Kenya,2019,Robusta,0.0
+Kenya,2020,Arabica,693.0
+Kenya,2020,Robusta,0.0
+Kenya,2021,Arabica,860.0
+Kenya,2021,Robusta,0.0
+Kenya,2022,Arabica,750.0
+Kenya,2022,Robusta,0.0
+Kenya,2023,Arabica,825.0
+Kenya,2023,Robusta,0.0
+Kenya,2024,Arabica,1000.0
+Kenya,2024,Robusta,0.0
+Kenya,2025,Arabica,850.0
+Kenya,2025,Robusta,0.0
+"Korea, South",2015,Arabica,0.0
+"Korea, South",2015,Robusta,0.0
+"Korea, South",2016,Arabica,0.0
+"Korea, South",2016,Robusta,0.0
+"Korea, South",2017,Arabica,0.0
+"Korea, South",2017,Robusta,0.0
+"Korea, South",2018,Arabica,0.0
+"Korea, South",2018,Robusta,0.0
+"Korea, South",2019,Arabica,0.0
+"Korea, South",2019,Robusta,0.0
+"Korea, South",2020,Arabica,0.0
+"Korea, South",2020,Robusta,0.0
+"Korea, South",2021,Arabica,0.0
+"Korea, South",2021,Robusta,0.0
+"Korea, South",2022,Arabica,0.0
+"Korea, South",2022,Robusta,0.0
+"Korea, South",2023,Arabica,0.0
+"Korea, South",2023,Robusta,0.0
+"Korea, South",2024,Arabica,0.0
+"Korea, South",2024,Robusta,0.0
+"Korea, South",2025,Arabica,0.0
+"Korea, South",2025,Robusta,0.0
+Kosovo,2015,Arabica,0.0
+Kosovo,2015,Robusta,0.0
+Kosovo,2016,Arabica,0.0
+Kosovo,2016,Robusta,0.0
+Kosovo,2017,Arabica,0.0
+Kosovo,2017,Robusta,0.0
+Kosovo,2018,Arabica,0.0
+Kosovo,2018,Robusta,0.0
+Kosovo,2019,Arabica,0.0
+Kosovo,2019,Robusta,0.0
+Kosovo,2020,Arabica,0.0
+Kosovo,2020,Robusta,0.0
+Kosovo,2021,Arabica,0.0
+Kosovo,2021,Robusta,0.0
+Kosovo,2022,Arabica,0.0
+Kosovo,2022,Robusta,0.0
+Kosovo,2023,Arabica,0.0
+Kosovo,2023,Robusta,0.0
+Kosovo,2024,Arabica,0.0
+Kosovo,2024,Robusta,0.0
+Kosovo,2025,Arabica,0.0
+Kosovo,2025,Robusta,0.0
+Laos,2015,Arabica,0.0
+Laos,2015,Robusta,475.0
+Laos,2016,Arabica,0.0
+Laos,2016,Robusta,410.0
+Laos,2017,Arabica,0.0
+Laos,2017,Robusta,450.0
+Laos,2018,Arabica,0.0
+Laos,2018,Robusta,375.0
+Laos,2019,Arabica,0.0
+Laos,2019,Robusta,440.0
+Laos,2020,Arabica,0.0
+Laos,2020,Robusta,485.0
+Laos,2021,Arabica,0.0
+Laos,2021,Robusta,385.0
+Laos,2022,Arabica,0.0
+Laos,2022,Robusta,410.0
+Laos,2023,Arabica,0.0
+Laos,2023,Robusta,410.0
+Laos,2024,Arabica,0.0
+Laos,2024,Robusta,430.0
+Laos,2025,Arabica,0.0
+Laos,2025,Robusta,430.0
+Liberia,2015,Arabica,0.0
+Liberia,2015,Robusta,0.0
+Liberia,2016,Arabica,0.0
+Liberia,2016,Robusta,0.0
+Liberia,2017,Arabica,0.0
+Liberia,2017,Robusta,0.0
+Liberia,2018,Arabica,0.0
+Liberia,2018,Robusta,0.0
+Liberia,2019,Arabica,0.0
+Liberia,2019,Robusta,0.0
+Liberia,2020,Arabica,0.0
+Liberia,2020,Robusta,0.0
+Liberia,2021,Arabica,0.0
+Liberia,2021,Robusta,0.0
+Liberia,2022,Arabica,0.0
+Liberia,2022,Robusta,0.0
+Liberia,2023,Arabica,0.0
+Liberia,2023,Robusta,0.0
+Liberia,2024,Arabica,0.0
+Liberia,2024,Robusta,0.0
+Liberia,2025,Arabica,0.0
+Liberia,2025,Robusta,0.0
+Madagascar,2015,Arabica,25.0
+Madagascar,2015,Robusta,230.0
+Madagascar,2016,Arabica,25.0
+Madagascar,2016,Robusta,270.0
+Madagascar,2017,Arabica,25.0
+Madagascar,2017,Robusta,225.0
+Madagascar,2018,Arabica,30.0
+Madagascar,2018,Robusta,250.0
+Madagascar,2019,Arabica,25.0
+Madagascar,2019,Robusta,300.0
+Madagascar,2020,Arabica,25.0
+Madagascar,2020,Robusta,300.0
+Madagascar,2021,Arabica,25.0
+Madagascar,2021,Robusta,275.0
+Madagascar,2022,Arabica,25.0
+Madagascar,2022,Robusta,300.0
+Madagascar,2023,Arabica,25.0
+Madagascar,2023,Robusta,275.0
+Madagascar,2024,Arabica,25.0
+Madagascar,2024,Robusta,275.0
+Madagascar,2025,Arabica,25.0
+Madagascar,2025,Robusta,275.0
+Malawi,2015,Arabica,23.0
+Malawi,2015,Robusta,0.0
+Malawi,2016,Arabica,16.0
+Malawi,2016,Robusta,0.0
+Malawi,2017,Arabica,12.0
+Malawi,2017,Robusta,0.0
+Malawi,2018,Arabica,11.0
+Malawi,2018,Robusta,0.0
+Malawi,2019,Arabica,10.0
+Malawi,2019,Robusta,0.0
+Malawi,2020,Arabica,0.0
+Malawi,2020,Robusta,0.0
+Malawi,2021,Arabica,0.0
+Malawi,2021,Robusta,0.0
+Malawi,2022,Arabica,0.0
+Malawi,2022,Robusta,0.0
+Malawi,2023,Arabica,0.0
+Malawi,2023,Robusta,0.0
+Malawi,2024,Arabica,0.0
+Malawi,2024,Robusta,0.0
+Malawi,2025,Arabica,0.0
+Malawi,2025,Robusta,0.0
+Malaysia,2015,Arabica,0.0
+Malaysia,2015,Robusta,2200.0
+Malaysia,2016,Arabica,0.0
+Malaysia,2016,Robusta,2100.0
+Malaysia,2017,Arabica,0.0
+Malaysia,2017,Robusta,2100.0
+Malaysia,2018,Arabica,0.0
+Malaysia,2018,Robusta,2100.0
+Malaysia,2019,Arabica,0.0
+Malaysia,2019,Robusta,1900.0
+Malaysia,2020,Arabica,0.0
+Malaysia,2020,Robusta,2000.0
+Malaysia,2021,Arabica,0.0
+Malaysia,2021,Robusta,2000.0
+Malaysia,2022,Arabica,0.0
+Malaysia,2022,Robusta,2000.0
+Malaysia,2023,Arabica,0.0
+Malaysia,2023,Robusta,1330.0
+Malaysia,2024,Arabica,0.0
+Malaysia,2024,Robusta,1400.0
+Malaysia,2025,Arabica,0.0
+Malaysia,2025,Robusta,1500.0
+Mexico,2015,Arabica,2125.0
+Mexico,2015,Robusta,175.0
+Mexico,2016,Arabica,3100.0
+Mexico,2016,Robusta,200.0
+Mexico,2017,Arabica,3800.0
+Mexico,2017,Robusta,200.0
+Mexico,2018,Arabica,3100.0
+Mexico,2018,Robusta,450.0
+Mexico,2019,Arabica,3150.0
+Mexico,2019,Robusta,550.0
+Mexico,2020,Arabica,3000.0
+Mexico,2020,Robusta,530.0
+Mexico,2021,Arabica,3200.0
+Mexico,2021,Robusta,540.0
+Mexico,2022,Arabica,3000.0
+Mexico,2022,Robusta,545.0
+Mexico,2023,Arabica,3356.0
+Mexico,2023,Robusta,500.0
+Mexico,2024,Arabica,3530.0
+Mexico,2024,Robusta,340.0
+Mexico,2025,Arabica,3540.0
+Mexico,2025,Robusta,363.0
+Montenegro,2015,Arabica,0.0
+Montenegro,2015,Robusta,0.0
+Montenegro,2016,Arabica,0.0
+Montenegro,2016,Robusta,0.0
+Montenegro,2017,Arabica,0.0
+Montenegro,2017,Robusta,0.0
+Montenegro,2018,Arabica,0.0
+Montenegro,2018,Robusta,0.0
+Montenegro,2019,Arabica,0.0
+Montenegro,2019,Robusta,0.0
+Montenegro,2020,Arabica,0.0
+Montenegro,2020,Robusta,0.0
+Montenegro,2021,Arabica,0.0
+Montenegro,2021,Robusta,0.0
+Montenegro,2022,Arabica,0.0
+Montenegro,2022,Robusta,0.0
+Montenegro,2023,Arabica,0.0
+Montenegro,2023,Robusta,0.0
+Montenegro,2024,Arabica,0.0
+Montenegro,2024,Robusta,0.0
+Montenegro,2025,Arabica,0.0
+Montenegro,2025,Robusta,0.0
+Morocco,2015,Arabica,0.0
+Morocco,2015,Robusta,0.0
+Morocco,2016,Arabica,0.0
+Morocco,2016,Robusta,0.0
+Morocco,2017,Arabica,0.0
+Morocco,2017,Robusta,0.0
+Morocco,2018,Arabica,0.0
+Morocco,2018,Robusta,0.0
+Morocco,2019,Arabica,0.0
+Morocco,2019,Robusta,0.0
+Morocco,2020,Arabica,0.0
+Morocco,2020,Robusta,0.0
+Morocco,2021,Arabica,0.0
+Morocco,2021,Robusta,0.0
+Morocco,2022,Arabica,0.0
+Morocco,2022,Robusta,0.0
+Morocco,2023,Arabica,0.0
+Morocco,2023,Robusta,0.0
+Morocco,2024,Arabica,0.0
+Morocco,2024,Robusta,0.0
+Morocco,2025,Arabica,0.0
+Morocco,2025,Robusta,0.0
+New Caledonia,2015,Arabica,0.0
+New Caledonia,2015,Robusta,0.0
+New Caledonia,2016,Arabica,0.0
+New Caledonia,2016,Robusta,0.0
+New Caledonia,2017,Arabica,0.0
+New Caledonia,2017,Robusta,0.0
+New Caledonia,2018,Arabica,0.0
+New Caledonia,2018,Robusta,0.0
+New Caledonia,2019,Arabica,0.0
+New Caledonia,2019,Robusta,0.0
+New Caledonia,2020,Arabica,0.0
+New Caledonia,2020,Robusta,0.0
+New Caledonia,2021,Arabica,0.0
+New Caledonia,2021,Robusta,0.0
+New Caledonia,2022,Arabica,0.0
+New Caledonia,2022,Robusta,0.0
+New Caledonia,2023,Arabica,0.0
+New Caledonia,2023,Robusta,0.0
+New Caledonia,2024,Arabica,0.0
+New Caledonia,2024,Robusta,0.0
+New Caledonia,2025,Arabica,0.0
+New Caledonia,2025,Robusta,0.0
+New Zealand,2015,Arabica,0.0
+New Zealand,2015,Robusta,0.0
+New Zealand,2016,Arabica,0.0
+New Zealand,2016,Robusta,0.0
+New Zealand,2017,Arabica,0.0
+New Zealand,2017,Robusta,0.0
+New Zealand,2018,Arabica,0.0
+New Zealand,2018,Robusta,0.0
+New Zealand,2019,Arabica,0.0
+New Zealand,2019,Robusta,0.0
+New Zealand,2020,Arabica,0.0
+New Zealand,2020,Robusta,0.0
+New Zealand,2021,Arabica,0.0
+New Zealand,2021,Robusta,0.0
+New Zealand,2022,Arabica,0.0
+New Zealand,2022,Robusta,0.0
+New Zealand,2023,Arabica,0.0
+New Zealand,2023,Robusta,0.0
+New Zealand,2024,Arabica,0.0
+New Zealand,2024,Robusta,0.0
+New Zealand,2025,Arabica,0.0
+New Zealand,2025,Robusta,0.0
+Nicaragua,2015,Arabica,2100.0
+Nicaragua,2015,Robusta,25.0
+Nicaragua,2016,Arabica,2600.0
+Nicaragua,2016,Robusta,25.0
+Nicaragua,2017,Arabica,2700.0
+Nicaragua,2017,Robusta,30.0
+Nicaragua,2018,Arabica,2900.0
+Nicaragua,2018,Robusta,50.0
+Nicaragua,2019,Arabica,2675.0
+Nicaragua,2019,Robusta,80.0
+Nicaragua,2020,Arabica,2550.0
+Nicaragua,2020,Robusta,100.0
+Nicaragua,2021,Arabica,2718.0
+Nicaragua,2021,Robusta,120.0
+Nicaragua,2022,Arabica,2430.0
+Nicaragua,2022,Robusta,160.0
+Nicaragua,2023,Arabica,2187.0
+Nicaragua,2023,Robusta,160.0
+Nicaragua,2024,Arabica,2400.0
+Nicaragua,2024,Robusta,160.0
+Nicaragua,2025,Arabica,2420.0
+Nicaragua,2025,Robusta,160.0
+Nigeria,2015,Arabica,0.0
+Nigeria,2015,Robusta,20.0
+Nigeria,2016,Arabica,0.0
+Nigeria,2016,Robusta,10.0
+Nigeria,2017,Arabica,0.0
+Nigeria,2017,Robusta,5.0
+Nigeria,2018,Arabica,0.0
+Nigeria,2018,Robusta,0.0
+Nigeria,2019,Arabica,0.0
+Nigeria,2019,Robusta,0.0
+Nigeria,2020,Arabica,0.0
+Nigeria,2020,Robusta,0.0
+Nigeria,2021,Arabica,0.0
+Nigeria,2021,Robusta,0.0
+Nigeria,2022,Arabica,0.0
+Nigeria,2022,Robusta,0.0
+Nigeria,2023,Arabica,0.0
+Nigeria,2023,Robusta,0.0
+Nigeria,2024,Arabica,0.0
+Nigeria,2024,Robusta,0.0
+Nigeria,2025,Arabica,0.0
+Nigeria,2025,Robusta,0.0
+North Macedonia,2015,Arabica,0.0
+North Macedonia,2015,Robusta,0.0
+North Macedonia,2016,Arabica,0.0
+North Macedonia,2016,Robusta,0.0
+North Macedonia,2017,Arabica,0.0
+North Macedonia,2017,Robusta,0.0
+North Macedonia,2018,Arabica,0.0
+North Macedonia,2018,Robusta,0.0
+North Macedonia,2019,Arabica,0.0
+North Macedonia,2019,Robusta,0.0
+North Macedonia,2020,Arabica,0.0
+North Macedonia,2020,Robusta,0.0
+North Macedonia,2021,Arabica,0.0
+North Macedonia,2021,Robusta,0.0
+North Macedonia,2022,Arabica,0.0
+North Macedonia,2022,Robusta,0.0
+North Macedonia,2023,Arabica,0.0
+North Macedonia,2023,Robusta,0.0
+North Macedonia,2024,Arabica,0.0
+North Macedonia,2024,Robusta,0.0
+North Macedonia,2025,Arabica,0.0
+North Macedonia,2025,Robusta,0.0
+Norway,2015,Arabica,0.0
+Norway,2015,Robusta,0.0
+Norway,2016,Arabica,0.0
+Norway,2016,Robusta,0.0
+Norway,2017,Arabica,0.0
+Norway,2017,Robusta,0.0
+Norway,2018,Arabica,0.0
+Norway,2018,Robusta,0.0
+Norway,2019,Arabica,0.0
+Norway,2019,Robusta,0.0
+Norway,2020,Arabica,0.0
+Norway,2020,Robusta,0.0
+Norway,2021,Arabica,0.0
+Norway,2021,Robusta,0.0
+Norway,2022,Arabica,0.0
+Norway,2022,Robusta,0.0
+Norway,2023,Arabica,0.0
+Norway,2023,Robusta,0.0
+Norway,2024,Arabica,0.0
+Norway,2024,Robusta,0.0
+Norway,2025,Arabica,0.0
+Norway,2025,Robusta,0.0
+Panama,2015,Arabica,85.0
+Panama,2015,Robusta,0.0
+Panama,2016,Arabica,95.0
+Panama,2016,Robusta,0.0
+Panama,2017,Arabica,75.0
+Panama,2017,Robusta,0.0
+Panama,2018,Arabica,75.0
+Panama,2018,Robusta,0.0
+Panama,2019,Arabica,75.0
+Panama,2019,Robusta,0.0
+Panama,2020,Arabica,75.0
+Panama,2020,Robusta,0.0
+Panama,2021,Arabica,75.0
+Panama,2021,Robusta,0.0
+Panama,2022,Arabica,85.0
+Panama,2022,Robusta,0.0
+Panama,2023,Arabica,75.0
+Panama,2023,Robusta,0.0
+Panama,2024,Arabica,100.0
+Panama,2024,Robusta,0.0
+Panama,2025,Arabica,80.0
+Panama,2025,Robusta,0.0
+Papua New Guinea,2015,Arabica,700.0
+Papua New Guinea,2015,Robusta,50.0
+Papua New Guinea,2016,Arabica,1065.0
+Papua New Guinea,2016,Robusta,50.0
+Papua New Guinea,2017,Arabica,760.0
+Papua New Guinea,2017,Robusta,50.0
+Papua New Guinea,2018,Arabica,915.0
+Papua New Guinea,2018,Robusta,50.0
+Papua New Guinea,2019,Arabica,775.0
+Papua New Guinea,2019,Robusta,50.0
+Papua New Guinea,2020,Arabica,650.0
+Papua New Guinea,2020,Robusta,50.0
+Papua New Guinea,2021,Arabica,725.0
+Papua New Guinea,2021,Robusta,50.0
+Papua New Guinea,2022,Arabica,825.0
+Papua New Guinea,2022,Robusta,50.0
+Papua New Guinea,2023,Arabica,930.0
+Papua New Guinea,2023,Robusta,50.0
+Papua New Guinea,2024,Arabica,800.0
+Papua New Guinea,2024,Robusta,40.0
+Papua New Guinea,2025,Arabica,900.0
+Papua New Guinea,2025,Robusta,50.0
+Paraguay,2015,Arabica,0.0
+Paraguay,2015,Robusta,0.0
+Paraguay,2016,Arabica,0.0
+Paraguay,2016,Robusta,0.0
+Paraguay,2017,Arabica,0.0
+Paraguay,2017,Robusta,0.0
+Paraguay,2018,Arabica,0.0
+Paraguay,2018,Robusta,0.0
+Paraguay,2019,Arabica,0.0
+Paraguay,2019,Robusta,0.0
+Paraguay,2020,Arabica,0.0
+Paraguay,2020,Robusta,0.0
+Paraguay,2021,Arabica,0.0
+Paraguay,2021,Robusta,0.0
+Paraguay,2022,Arabica,0.0
+Paraguay,2022,Robusta,0.0
+Paraguay,2023,Arabica,0.0
+Paraguay,2023,Robusta,0.0
+Paraguay,2024,Arabica,0.0
+Paraguay,2024,Robusta,0.0
+Paraguay,2025,Arabica,0.0
+Paraguay,2025,Robusta,0.0
+Peru,2015,Arabica,3500.0
+Peru,2015,Robusta,0.0
+Peru,2016,Arabica,4225.0
+Peru,2016,Robusta,0.0
+Peru,2017,Arabica,4375.0
+Peru,2017,Robusta,0.0
+Peru,2018,Arabica,4390.0
+Peru,2018,Robusta,0.0
+Peru,2019,Arabica,3925.0
+Peru,2019,Robusta,0.0
+Peru,2020,Arabica,3369.0
+Peru,2020,Robusta,0.0
+Peru,2021,Arabica,4200.0
+Peru,2021,Robusta,0.0
+Peru,2022,Arabica,3475.0
+Peru,2022,Robusta,0.0
+Peru,2023,Arabica,3912.0
+Peru,2023,Robusta,0.0
+Peru,2024,Arabica,3700.0
+Peru,2024,Robusta,0.0
+Peru,2025,Arabica,4200.0
+Peru,2025,Robusta,0.0
+Philippines,2015,Arabica,25.0
+Philippines,2015,Robusta,400.0
+Philippines,2016,Arabica,25.0
+Philippines,2016,Robusta,450.0
+Philippines,2017,Arabica,25.0
+Philippines,2017,Robusta,425.0
+Philippines,2018,Arabica,25.0
+Philippines,2018,Robusta,400.0
+Philippines,2019,Arabica,25.0
+Philippines,2019,Robusta,425.0
+Philippines,2020,Arabica,25.0
+Philippines,2020,Robusta,400.0
+Philippines,2021,Arabica,25.0
+Philippines,2021,Robusta,425.0
+Philippines,2022,Arabica,25.0
+Philippines,2022,Robusta,450.0
+Philippines,2023,Arabica,25.0
+Philippines,2023,Robusta,425.0
+Philippines,2024,Arabica,25.0
+Philippines,2024,Robusta,425.0
+Philippines,2025,Arabica,25.0
+Philippines,2025,Robusta,425.0
+Russia,2015,Arabica,0.0
+Russia,2015,Robusta,0.0
+Russia,2016,Arabica,0.0
+Russia,2016,Robusta,0.0
+Russia,2017,Arabica,0.0
+Russia,2017,Robusta,0.0
+Russia,2018,Arabica,0.0
+Russia,2018,Robusta,0.0
+Russia,2019,Arabica,0.0
+Russia,2019,Robusta,0.0
+Russia,2020,Arabica,0.0
+Russia,2020,Robusta,0.0
+Russia,2021,Arabica,0.0
+Russia,2021,Robusta,0.0
+Russia,2022,Arabica,0.0
+Russia,2022,Robusta,0.0
+Russia,2023,Arabica,0.0
+Russia,2023,Robusta,0.0
+Russia,2024,Arabica,0.0
+Russia,2024,Robusta,0.0
+Russia,2025,Arabica,0.0
+Russia,2025,Robusta,0.0
+Rwanda,2015,Arabica,300.0
+Rwanda,2015,Robusta,0.0
+Rwanda,2016,Arabica,230.0
+Rwanda,2016,Robusta,0.0
+Rwanda,2017,Arabica,275.0
+Rwanda,2017,Robusta,0.0
+Rwanda,2018,Arabica,275.0
+Rwanda,2018,Robusta,0.0
+Rwanda,2019,Arabica,350.0
+Rwanda,2019,Robusta,0.0
+Rwanda,2020,Arabica,300.0
+Rwanda,2020,Robusta,0.0
+Rwanda,2021,Arabica,270.0
+Rwanda,2021,Robusta,0.0
+Rwanda,2022,Arabica,275.0
+Rwanda,2022,Robusta,0.0
+Rwanda,2023,Arabica,360.0
+Rwanda,2023,Robusta,0.0
+Rwanda,2024,Arabica,300.0
+Rwanda,2024,Robusta,0.0
+Rwanda,2025,Arabica,350.0
+Rwanda,2025,Robusta,0.0
+Saudi Arabia,2015,Arabica,0.0
+Saudi Arabia,2015,Robusta,0.0
+Saudi Arabia,2016,Arabica,0.0
+Saudi Arabia,2016,Robusta,0.0
+Saudi Arabia,2017,Arabica,0.0
+Saudi Arabia,2017,Robusta,0.0
+Saudi Arabia,2018,Arabica,0.0
+Saudi Arabia,2018,Robusta,0.0
+Saudi Arabia,2019,Arabica,0.0
+Saudi Arabia,2019,Robusta,0.0
+Saudi Arabia,2020,Arabica,0.0
+Saudi Arabia,2020,Robusta,0.0
+Saudi Arabia,2021,Arabica,0.0
+Saudi Arabia,2021,Robusta,0.0
+Saudi Arabia,2022,Arabica,0.0
+Saudi Arabia,2022,Robusta,0.0
+Saudi Arabia,2023,Arabica,0.0
+Saudi Arabia,2023,Robusta,0.0
+Saudi Arabia,2024,Arabica,0.0
+Saudi Arabia,2024,Robusta,0.0
+Saudi Arabia,2025,Arabica,0.0
+Saudi Arabia,2025,Robusta,0.0
+Senegal,2015,Arabica,0.0
+Senegal,2015,Robusta,0.0
+Senegal,2016,Arabica,0.0
+Senegal,2016,Robusta,0.0
+Senegal,2017,Arabica,0.0
+Senegal,2017,Robusta,0.0
+Senegal,2018,Arabica,0.0
+Senegal,2018,Robusta,0.0
+Senegal,2019,Arabica,0.0
+Senegal,2019,Robusta,0.0
+Senegal,2020,Arabica,0.0
+Senegal,2020,Robusta,0.0
+Senegal,2021,Arabica,0.0
+Senegal,2021,Robusta,0.0
+Senegal,2022,Arabica,0.0
+Senegal,2022,Robusta,0.0
+Senegal,2023,Arabica,0.0
+Senegal,2023,Robusta,0.0
+Senegal,2024,Arabica,0.0
+Senegal,2024,Robusta,0.0
+Senegal,2025,Arabica,0.0
+Senegal,2025,Robusta,0.0
+Serbia,2015,Arabica,0.0
+Serbia,2015,Robusta,0.0
+Serbia,2016,Arabica,0.0
+Serbia,2016,Robusta,0.0
+Serbia,2017,Arabica,0.0
+Serbia,2017,Robusta,0.0
+Serbia,2018,Arabica,0.0
+Serbia,2018,Robusta,0.0
+Serbia,2019,Arabica,0.0
+Serbia,2019,Robusta,0.0
+Serbia,2020,Arabica,0.0
+Serbia,2020,Robusta,0.0
+Serbia,2021,Arabica,0.0
+Serbia,2021,Robusta,0.0
+Serbia,2022,Arabica,0.0
+Serbia,2022,Robusta,0.0
+Serbia,2023,Arabica,0.0
+Serbia,2023,Robusta,0.0
+Serbia,2024,Arabica,0.0
+Serbia,2024,Robusta,0.0
+Serbia,2025,Arabica,0.0
+Serbia,2025,Robusta,0.0
+Sierra Leone,2015,Arabica,0.0
+Sierra Leone,2015,Robusta,60.0
+Sierra Leone,2016,Arabica,0.0
+Sierra Leone,2016,Robusta,60.0
+Sierra Leone,2017,Arabica,0.0
+Sierra Leone,2017,Robusta,65.0
+Sierra Leone,2018,Arabica,0.0
+Sierra Leone,2018,Robusta,50.0
+Sierra Leone,2019,Arabica,0.0
+Sierra Leone,2019,Robusta,65.0
+Sierra Leone,2020,Arabica,0.0
+Sierra Leone,2020,Robusta,75.0
+Sierra Leone,2021,Arabica,0.0
+Sierra Leone,2021,Robusta,33.0
+Sierra Leone,2022,Arabica,0.0
+Sierra Leone,2022,Robusta,55.0
+Sierra Leone,2023,Arabica,0.0
+Sierra Leone,2023,Robusta,35.0
+Sierra Leone,2024,Arabica,0.0
+Sierra Leone,2024,Robusta,58.0
+Sierra Leone,2025,Arabica,0.0
+Sierra Leone,2025,Robusta,60.0
+Singapore,2015,Arabica,0.0
+Singapore,2015,Robusta,0.0
+Singapore,2016,Arabica,0.0
+Singapore,2016,Robusta,0.0
+Singapore,2017,Arabica,0.0
+Singapore,2017,Robusta,0.0
+Singapore,2018,Arabica,0.0
+Singapore,2018,Robusta,0.0
+Singapore,2019,Arabica,0.0
+Singapore,2019,Robusta,0.0
+Singapore,2020,Arabica,0.0
+Singapore,2020,Robusta,0.0
+Singapore,2021,Arabica,0.0
+Singapore,2021,Robusta,0.0
+Singapore,2022,Arabica,0.0
+Singapore,2022,Robusta,0.0
+Singapore,2023,Arabica,0.0
+Singapore,2023,Robusta,0.0
+Singapore,2024,Arabica,0.0
+Singapore,2024,Robusta,0.0
+Singapore,2025,Arabica,0.0
+Singapore,2025,Robusta,0.0
+South Africa,2015,Arabica,0.0
+South Africa,2015,Robusta,0.0
+South Africa,2016,Arabica,0.0
+South Africa,2016,Robusta,0.0
+South Africa,2017,Arabica,0.0
+South Africa,2017,Robusta,0.0
+South Africa,2018,Arabica,0.0
+South Africa,2018,Robusta,0.0
+South Africa,2019,Arabica,0.0
+South Africa,2019,Robusta,0.0
+South Africa,2020,Arabica,0.0
+South Africa,2020,Robusta,0.0
+South Africa,2021,Arabica,0.0
+South Africa,2021,Robusta,0.0
+South Africa,2022,Arabica,0.0
+South Africa,2022,Robusta,0.0
+South Africa,2023,Arabica,0.0
+South Africa,2023,Robusta,0.0
+South Africa,2024,Arabica,0.0
+South Africa,2024,Robusta,0.0
+South Africa,2025,Arabica,0.0
+South Africa,2025,Robusta,0.0
+Sri Lanka,2015,Arabica,0.0
+Sri Lanka,2015,Robusta,0.0
+Sri Lanka,2016,Arabica,0.0
+Sri Lanka,2016,Robusta,0.0
+Sri Lanka,2017,Arabica,0.0
+Sri Lanka,2017,Robusta,0.0
+Sri Lanka,2018,Arabica,0.0
+Sri Lanka,2018,Robusta,0.0
+Sri Lanka,2019,Arabica,0.0
+Sri Lanka,2019,Robusta,0.0
+Sri Lanka,2020,Arabica,0.0
+Sri Lanka,2020,Robusta,0.0
+Sri Lanka,2021,Arabica,0.0
+Sri Lanka,2021,Robusta,0.0
+Sri Lanka,2022,Arabica,0.0
+Sri Lanka,2022,Robusta,0.0
+Sri Lanka,2023,Arabica,0.0
+Sri Lanka,2023,Robusta,0.0
+Sri Lanka,2024,Arabica,0.0
+Sri Lanka,2024,Robusta,0.0
+Sri Lanka,2025,Arabica,0.0
+Sri Lanka,2025,Robusta,0.0
+Switzerland,2015,Arabica,0.0
+Switzerland,2015,Robusta,0.0
+Switzerland,2016,Arabica,0.0
+Switzerland,2016,Robusta,0.0
+Switzerland,2017,Arabica,0.0
+Switzerland,2017,Robusta,0.0
+Switzerland,2018,Arabica,0.0
+Switzerland,2018,Robusta,0.0
+Switzerland,2019,Arabica,0.0
+Switzerland,2019,Robusta,0.0
+Switzerland,2020,Arabica,0.0
+Switzerland,2020,Robusta,0.0
+Switzerland,2021,Arabica,0.0
+Switzerland,2021,Robusta,0.0
+Switzerland,2022,Arabica,0.0
+Switzerland,2022,Robusta,0.0
+Switzerland,2023,Arabica,0.0
+Switzerland,2023,Robusta,0.0
+Switzerland,2024,Arabica,0.0
+Switzerland,2024,Robusta,0.0
+Switzerland,2025,Arabica,0.0
+Switzerland,2025,Robusta,0.0
+Taiwan,2015,Arabica,0.0
+Taiwan,2015,Robusta,0.0
+Taiwan,2016,Arabica,0.0
+Taiwan,2016,Robusta,0.0
+Taiwan,2017,Arabica,0.0
+Taiwan,2017,Robusta,0.0
+Taiwan,2018,Arabica,0.0
+Taiwan,2018,Robusta,0.0
+Taiwan,2019,Arabica,0.0
+Taiwan,2019,Robusta,0.0
+Taiwan,2020,Arabica,0.0
+Taiwan,2020,Robusta,0.0
+Taiwan,2021,Arabica,0.0
+Taiwan,2021,Robusta,0.0
+Taiwan,2022,Arabica,0.0
+Taiwan,2022,Robusta,0.0
+Taiwan,2023,Arabica,0.0
+Taiwan,2023,Robusta,0.0
+Taiwan,2024,Arabica,0.0
+Taiwan,2024,Robusta,0.0
+Taiwan,2025,Arabica,0.0
+Taiwan,2025,Robusta,0.0
+Tanzania,2015,Arabica,600.0
+Tanzania,2015,Robusta,500.0
+Tanzania,2016,Arabica,550.0
+Tanzania,2016,Robusta,500.0
+Tanzania,2017,Arabica,600.0
+Tanzania,2017,Robusta,550.0
+Tanzania,2018,Arabica,650.0
+Tanzania,2018,Robusta,550.0
+Tanzania,2019,Arabica,625.0
+Tanzania,2019,Robusta,575.0
+Tanzania,2020,Arabica,600.0
+Tanzania,2020,Robusta,525.0
+Tanzania,2021,Arabica,650.0
+Tanzania,2021,Robusta,550.0
+Tanzania,2022,Arabica,650.0
+Tanzania,2022,Robusta,550.0
+Tanzania,2023,Arabica,750.0
+Tanzania,2023,Robusta,600.0
+Tanzania,2024,Arabica,700.0
+Tanzania,2024,Robusta,650.0
+Tanzania,2025,Arabica,750.0
+Tanzania,2025,Robusta,700.0
+Thailand,2015,Arabica,0.0
+Thailand,2015,Robusta,700.0
+Thailand,2016,Arabica,0.0
+Thailand,2016,Robusta,800.0
+Thailand,2017,Arabica,0.0
+Thailand,2017,Robusta,700.0
+Thailand,2018,Arabica,0.0
+Thailand,2018,Robusta,650.0
+Thailand,2019,Arabica,0.0
+Thailand,2019,Robusta,700.0
+Thailand,2020,Arabica,0.0
+Thailand,2020,Robusta,600.0
+Thailand,2021,Arabica,0.0
+Thailand,2021,Robusta,650.0
+Thailand,2022,Arabica,0.0
+Thailand,2022,Robusta,700.0
+Thailand,2023,Arabica,0.0
+Thailand,2023,Robusta,750.0
+Thailand,2024,Arabica,0.0
+Thailand,2024,Robusta,900.0
+Thailand,2025,Arabica,0.0
+Thailand,2025,Robusta,900.0
+Togo,2015,Arabica,0.0
+Togo,2015,Robusta,120.0
+Togo,2016,Arabica,0.0
+Togo,2016,Robusta,80.0
+Togo,2017,Arabica,0.0
+Togo,2017,Robusta,130.0
+Togo,2018,Arabica,0.0
+Togo,2018,Robusta,95.0
+Togo,2019,Arabica,0.0
+Togo,2019,Robusta,100.0
+Togo,2020,Arabica,0.0
+Togo,2020,Robusta,85.0
+Togo,2021,Arabica,0.0
+Togo,2021,Robusta,80.0
+Togo,2022,Arabica,0.0
+Togo,2022,Robusta,110.0
+Togo,2023,Arabica,0.0
+Togo,2023,Robusta,75.0
+Togo,2024,Arabica,0.0
+Togo,2024,Robusta,90.0
+Togo,2025,Arabica,0.0
+Togo,2025,Robusta,85.0
+Trinidad and Tobago,2015,Arabica,0.0
+Trinidad and Tobago,2015,Robusta,0.0
+Trinidad and Tobago,2016,Arabica,0.0
+Trinidad and Tobago,2016,Robusta,0.0
+Trinidad and Tobago,2017,Arabica,0.0
+Trinidad and Tobago,2017,Robusta,0.0
+Trinidad and Tobago,2018,Arabica,0.0
+Trinidad and Tobago,2018,Robusta,0.0
+Trinidad and Tobago,2019,Arabica,0.0
+Trinidad and Tobago,2019,Robusta,0.0
+Trinidad and Tobago,2020,Arabica,0.0
+Trinidad and Tobago,2020,Robusta,0.0
+Trinidad and Tobago,2021,Arabica,0.0
+Trinidad and Tobago,2021,Robusta,0.0
+Trinidad and Tobago,2022,Arabica,0.0
+Trinidad and Tobago,2022,Robusta,0.0
+Trinidad and Tobago,2023,Arabica,0.0
+Trinidad and Tobago,2023,Robusta,0.0
+Trinidad and Tobago,2024,Arabica,0.0
+Trinidad and Tobago,2024,Robusta,0.0
+Trinidad and Tobago,2025,Arabica,0.0
+Trinidad and Tobago,2025,Robusta,0.0
+Turkey,2015,Arabica,0.0
+Turkey,2015,Robusta,0.0
+Turkey,2016,Arabica,0.0
+Turkey,2016,Robusta,0.0
+Turkey,2017,Arabica,0.0
+Turkey,2017,Robusta,0.0
+Turkey,2018,Arabica,0.0
+Turkey,2018,Robusta,0.0
+Turkey,2019,Arabica,0.0
+Turkey,2019,Robusta,0.0
+Turkey,2020,Arabica,0.0
+Turkey,2020,Robusta,0.0
+Turkey,2021,Arabica,0.0
+Turkey,2021,Robusta,0.0
+Turkey,2022,Arabica,0.0
+Turkey,2022,Robusta,0.0
+Turkey,2023,Arabica,0.0
+Turkey,2023,Robusta,0.0
+Turkey,2024,Arabica,0.0
+Turkey,2024,Robusta,0.0
+Turkey,2025,Arabica,0.0
+Turkey,2025,Robusta,0.0
+Uganda,2015,Arabica,950.0
+Uganda,2015,Robusta,2600.0
+Uganda,2016,Arabica,1100.0
+Uganda,2016,Robusta,3775.0
+Uganda,2017,Arabica,1200.0
+Uganda,2017,Robusta,3400.0
+Uganda,2018,Arabica,1050.0
+Uganda,2018,Robusta,3600.0
+Uganda,2019,Arabica,1025.0
+Uganda,2019,Robusta,4450.0
+Uganda,2020,Arabica,730.0
+Uganda,2020,Robusta,5900.0
+Uganda,2021,Arabica,990.0
+Uganda,2021,Robusta,5060.0
+Uganda,2022,Arabica,990.0
+Uganda,2022,Robusta,5575.0
+Uganda,2023,Arabica,1000.0
+Uganda,2023,Robusta,5400.0
+Uganda,2024,Arabica,1030.0
+Uganda,2024,Robusta,5670.0
+Uganda,2025,Arabica,1060.0
+Uganda,2025,Robusta,5815.0
+Ukraine,2015,Arabica,0.0
+Ukraine,2015,Robusta,0.0
+Ukraine,2016,Arabica,0.0
+Ukraine,2016,Robusta,0.0
+Ukraine,2017,Arabica,0.0
+Ukraine,2017,Robusta,0.0
+Ukraine,2018,Arabica,0.0
+Ukraine,2018,Robusta,0.0
+Ukraine,2019,Arabica,0.0
+Ukraine,2019,Robusta,0.0
+Ukraine,2020,Arabica,0.0
+Ukraine,2020,Robusta,0.0
+Ukraine,2021,Arabica,0.0
+Ukraine,2021,Robusta,0.0
+Ukraine,2022,Arabica,0.0
+Ukraine,2022,Robusta,0.0
+Ukraine,2023,Arabica,0.0
+Ukraine,2023,Robusta,0.0
+Ukraine,2024,Arabica,0.0
+Ukraine,2024,Robusta,0.0
+Ukraine,2025,Arabica,0.0
+Ukraine,2025,Robusta,0.0
+United Kingdom,2016,Arabica,0.0
+United Kingdom,2016,Robusta,0.0
+United Kingdom,2017,Arabica,0.0
+United Kingdom,2017,Robusta,0.0
+United Kingdom,2018,Arabica,0.0
+United Kingdom,2018,Robusta,0.0
+United Kingdom,2019,Arabica,0.0
+United Kingdom,2019,Robusta,0.0
+United Kingdom,2020,Arabica,0.0
+United Kingdom,2020,Robusta,0.0
+United Kingdom,2021,Arabica,0.0
+United Kingdom,2021,Robusta,0.0
+United Kingdom,2022,Arabica,0.0
+United Kingdom,2022,Robusta,0.0
+United Kingdom,2023,Arabica,0.0
+United Kingdom,2023,Robusta,0.0
+United Kingdom,2024,Arabica,0.0
+United Kingdom,2024,Robusta,0.0
+United Kingdom,2025,Arabica,0.0
+United Kingdom,2025,Robusta,0.0
+United States,2015,Arabica,40.0
+United States,2015,Robusta,0.0
+United States,2016,Arabica,33.0
+United States,2016,Robusta,0.0
+United States,2017,Arabica,32.0
+United States,2017,Robusta,0.0
+United States,2018,Arabica,54.0
+United States,2018,Robusta,0.0
+United States,2019,Arabica,39.0
+United States,2019,Robusta,0.0
+United States,2020,Arabica,33.0
+United States,2020,Robusta,0.0
+United States,2021,Arabica,38.0
+United States,2021,Robusta,0.0
+United States,2022,Arabica,40.0
+United States,2022,Robusta,0.0
+United States,2023,Arabica,50.0
+United States,2023,Robusta,0.0
+United States,2024,Arabica,50.0
+United States,2024,Robusta,0.0
+United States,2025,Arabica,50.0
+United States,2025,Robusta,0.0
+Uruguay,2015,Arabica,0.0
+Uruguay,2015,Robusta,0.0
+Uruguay,2016,Arabica,0.0
+Uruguay,2016,Robusta,0.0
+Uruguay,2017,Arabica,0.0
+Uruguay,2017,Robusta,0.0
+Uruguay,2018,Arabica,0.0
+Uruguay,2018,Robusta,0.0
+Uruguay,2019,Arabica,0.0
+Uruguay,2019,Robusta,0.0
+Uruguay,2020,Arabica,0.0
+Uruguay,2020,Robusta,0.0
+Uruguay,2021,Arabica,0.0
+Uruguay,2021,Robusta,0.0
+Uruguay,2022,Arabica,0.0
+Uruguay,2022,Robusta,0.0
+Uruguay,2023,Arabica,0.0
+Uruguay,2023,Robusta,0.0
+Uruguay,2024,Arabica,0.0
+Uruguay,2024,Robusta,0.0
+Uruguay,2025,Arabica,0.0
+Uruguay,2025,Robusta,0.0
+Venezuela,2015,Arabica,500.0
+Venezuela,2015,Robusta,0.0
+Venezuela,2016,Arabica,530.0
+Venezuela,2016,Robusta,0.0
+Venezuela,2017,Arabica,575.0
+Venezuela,2017,Robusta,0.0
+Venezuela,2018,Arabica,585.0
+Venezuela,2018,Robusta,0.0
+Venezuela,2019,Arabica,550.0
+Venezuela,2019,Robusta,0.0
+Venezuela,2020,Arabica,480.0
+Venezuela,2020,Robusta,0.0
+Venezuela,2021,Arabica,500.0
+Venezuela,2021,Robusta,0.0
+Venezuela,2022,Arabica,500.0
+Venezuela,2022,Robusta,0.0
+Venezuela,2023,Arabica,500.0
+Venezuela,2023,Robusta,0.0
+Venezuela,2024,Arabica,500.0
+Venezuela,2024,Robusta,0.0
+Venezuela,2025,Arabica,500.0
+Venezuela,2025,Robusta,0.0
+Vietnam,2015,Arabica,1100.0
+Vietnam,2015,Robusta,27830.0
+Vietnam,2016,Arabica,1100.0
+Vietnam,2016,Robusta,25600.0
+Vietnam,2017,Arabica,1026.0
+Vietnam,2017,Robusta,28274.0
+Vietnam,2018,Arabica,1064.0
+Vietnam,2018,Robusta,29336.0
+Vietnam,2019,Arabica,1100.0
+Vietnam,2019,Robusta,30200.0
+Vietnam,2020,Arabica,950.0
+Vietnam,2020,Robusta,28050.0
+Vietnam,2021,Arabica,1100.0
+Vietnam,2021,Robusta,30480.0
+Vietnam,2022,Arabica,1000.0
+Vietnam,2022,Robusta,27300.0
+Vietnam,2023,Arabica,1000.0
+Vietnam,2023,Robusta,26550.0
+Vietnam,2024,Arabica,1000.0
+Vietnam,2024,Robusta,28000.0
+Vietnam,2025,Arabica,1200.0
+Vietnam,2025,Robusta,29600.0
+Yemen,2015,Arabica,0.0
+Yemen,2015,Robusta,0.0
+Yemen,2016,Arabica,0.0
+Yemen,2016,Robusta,0.0
+Yemen,2017,Arabica,0.0
+Yemen,2017,Robusta,0.0
+Yemen,2018,Arabica,0.0
+Yemen,2018,Robusta,0.0
+Yemen,2019,Arabica,0.0
+Yemen,2019,Robusta,0.0
+Yemen,2020,Arabica,0.0
+Yemen,2020,Robusta,0.0
+Yemen,2021,Arabica,0.0
+Yemen,2021,Robusta,0.0
+Yemen,2022,Arabica,0.0
+Yemen,2022,Robusta,0.0
+Yemen,2023,Arabica,0.0
+Yemen,2023,Robusta,0.0
+Yemen,2024,Arabica,0.0
+Yemen,2024,Robusta,0.0
+Yemen,2025,Arabica,0.0
+Yemen,2025,Robusta,0.0
+Zambia,2015,Arabica,0.0
+Zambia,2015,Robusta,0.0
+Zambia,2016,Arabica,0.0
+Zambia,2016,Robusta,0.0
+Zambia,2017,Arabica,0.0
+Zambia,2017,Robusta,0.0
+Zambia,2018,Arabica,0.0
+Zambia,2018,Robusta,0.0
+Zambia,2019,Arabica,0.0
+Zambia,2019,Robusta,0.0
+Zambia,2020,Arabica,0.0
+Zambia,2020,Robusta,0.0
+Zambia,2021,Arabica,0.0
+Zambia,2021,Robusta,0.0
+Zambia,2022,Arabica,0.0
+Zambia,2022,Robusta,0.0
+Zambia,2023,Arabica,0.0
+Zambia,2023,Robusta,0.0
+Zambia,2024,Arabica,0.0
+Zambia,2024,Robusta,0.0
+Zambia,2025,Arabica,0.0
+Zambia,2025,Robusta,0.0
+Zimbabwe,2015,Arabica,0.0
+Zimbabwe,2015,Robusta,0.0
+Zimbabwe,2016,Arabica,0.0
+Zimbabwe,2016,Robusta,0.0
+Zimbabwe,2017,Arabica,0.0
+Zimbabwe,2017,Robusta,0.0
+Zimbabwe,2018,Arabica,0.0
+Zimbabwe,2018,Robusta,0.0
+Zimbabwe,2019,Arabica,0.0
+Zimbabwe,2019,Robusta,0.0
+Zimbabwe,2020,Arabica,0.0
+Zimbabwe,2020,Robusta,0.0
+Zimbabwe,2021,Arabica,0.0
+Zimbabwe,2021,Robusta,0.0
+Zimbabwe,2022,Arabica,0.0
+Zimbabwe,2022,Robusta,0.0
+Zimbabwe,2023,Arabica,0.0
+Zimbabwe,2023,Robusta,0.0
+Zimbabwe,2024,Arabica,0.0
+Zimbabwe,2024,Robusta,0.0
+Zimbabwe,2025,Arabica,0.0
+Zimbabwe,2025,Robusta,0.0

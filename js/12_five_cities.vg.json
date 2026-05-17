@@ -1,0 +1,519 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bubble quadrant showing the personality of each Australian capital's coffee culture.",
+    "height": "container",
+    "padding": 16,
+    "data": {
+        "url": "data/city_cafes.csv"
+    },
+    "encoding": {
+        "x": {
+            "field": "chain_pct",
+            "type": "quantitative",
+            "scale": {
+                "domain": [
+                    3,
+                    15
+                ],
+                "nice": false
+            },
+            "axis": {
+                "title": "Chain share of caf\u00e9s (%)",
+                "titleFontSize": 12,
+                "titlePadding": 14,
+                "labelFontSize": 11,
+                "values": [
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14
+                ],
+                "labelExpr": "datum.value + '%'",
+                "grid": true,
+                "gridDash": [
+                    2,
+                    4
+                ]
+            }
+        },
+        "y": {
+            "field": "cafes_total",
+            "type": "quantitative",
+            "scale": {
+                "domain": [
+                    0,
+                    3500
+                ],
+                "nice": false
+            },
+            "axis": {
+                "title": "Total caf\u00e9s in metropolitan area",
+                "titleFontSize": 12,
+                "titlePadding": 10,
+                "labelFontSize": 11,
+                "values": [
+                    0,
+                    500,
+                    1000,
+                    1500,
+                    2000,
+                    2500,
+                    3000,
+                    3500
+                ],
+                "format": ",d",
+                "grid": true,
+                "gridDash": [
+                    2,
+                    4
+                ]
+            }
+        }
+    },
+    "layer": [
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 3,
+                        "x2": 8.5,
+                        "y": 1500,
+                        "y2": 3500
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rect",
+                "fill": "#7FA68F",
+                "opacity": 0.18
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "x2": {
+                    "field": "x2"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "field": "y2"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 8.5,
+                        "x2": 15,
+                        "y": 1500,
+                        "y2": 3500
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rect",
+                "fill": "#D6A99B",
+                "opacity": 0.18
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "x2": {
+                    "field": "x2"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "field": "y2"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 3,
+                        "x2": 8.5,
+                        "y": 0,
+                        "y2": 1500
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rect",
+                "fill": "#E5D9B6",
+                "opacity": 0.18
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "x2": {
+                    "field": "x2"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "field": "y2"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 8.5,
+                        "x2": 15,
+                        "y": 0,
+                        "y2": 1500
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rect",
+                "fill": "#D6BCAE",
+                "opacity": 0.18
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "x2": {
+                    "field": "x2"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "field": "y2"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 8.5
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rule",
+                "color": "#8C7361",
+                "strokeDash": [
+                    4,
+                    4
+                ],
+                "strokeWidth": 1,
+                "opacity": 0.4
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "y": 1500
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rule",
+                "color": "#8C7361",
+                "strokeDash": [
+                    4,
+                    4
+                ],
+                "strokeWidth": 1,
+                "opacity": 0.4
+            },
+            "encoding": {
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 3.2,
+                        "y": 3450,
+                        "label": "INDEPENDENT BIG MARKETS"
+                    },
+                    {
+                        "x": 3.2,
+                        "y": 50,
+                        "label": "INDEPENDENT SMALL MARKETS"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 9,
+                "fontWeight": 600,
+                "color": "#A89684"
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 14.8,
+                        "y": 3450,
+                        "label": "CHAIN-FRIENDLY BIG MARKETS"
+                    },
+                    {
+                        "x": 14.8,
+                        "y": 50,
+                        "label": "CHAIN-FRIENDLY SMALL MARKETS"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "fontSize": 9,
+                "fontWeight": 600,
+                "color": "#A89684"
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "x": 4,
+                        "y": 2700,
+                        "label": "Melbourne and Sydney"
+                    },
+                    {
+                        "x": 4,
+                        "y": 2550,
+                        "label": "occupy the coffee-capital"
+                    },
+                    {
+                        "x": 4,
+                        "y": 2400,
+                        "label": "club \u2014 biggest markets,"
+                    },
+                    {
+                        "x": 4,
+                        "y": 2250,
+                        "label": "most independent."
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontStyle": "italic",
+                "color": "#5C463A"
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 2,
+                "opacity": 0.85
+            },
+            "encoding": {
+                "size": {
+                    "field": "per_10k",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "sqrt",
+                        "range": [
+                            800,
+                            4000
+                        ]
+                    },
+                    "legend": null
+                },
+                "color": {
+                    "field": "city",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Melbourne",
+                            "Sydney",
+                            "Brisbane",
+                            "Perth",
+                            "Adelaide"
+                        ],
+                        "range": [
+                            "#2F5D50",
+                            "#1F5F5B",
+                            "#A53F2B",
+                            "#C9A87C",
+                            "#6F4E37"
+                        ]
+                    },
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "city",
+                        "type": "nominal",
+                        "title": "City"
+                    },
+                    {
+                        "field": "cafes_total",
+                        "type": "quantitative",
+                        "title": "Total caf\u00e9s",
+                        "format": ","
+                    },
+                    {
+                        "field": "cafes_independent",
+                        "type": "quantitative",
+                        "title": "Independent",
+                        "format": ","
+                    },
+                    {
+                        "field": "cafes_chain",
+                        "type": "quantitative",
+                        "title": "Chain",
+                        "format": ","
+                    },
+                    {
+                        "field": "chain_pct",
+                        "type": "quantitative",
+                        "title": "Chain share (%)",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "per_10k",
+                        "type": "quantitative",
+                        "title": "Per 10k people",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700,
+                "color": "#2A1B14",
+                "dx": 0,
+                "dy": -45
+            },
+            "encoding": {
+                "x": {
+                    "field": "chain_pct",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "cafes_total",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "city",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 500,
+                "color": "#5C463A",
+                "dx": 0,
+                "dy": 45
+            },
+            "encoding": {
+                "x": {
+                    "field": "chain_pct",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "cafes_total",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "cafes_total",
+                    "type": "quantitative",
+                    "format": ","
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian Coffee Culture: From Bean to Cup</title>
+    <meta
+      name="description"
+      content="A visual project about Australia's coffee culture: global supply chain, local consumption, and recent price changes."
+    />
+
+    <!-- Vega-Lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- 1. HERO -->
+    <header class="hero" data-screen-label="01 Hero">
+      <div class="hero__decor" aria-hidden="true">
+        <svg viewBox="0 0 600 600" class="hero__beans">
+          <defs>
+            <linearGradient id="beanGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#6F4E37" stop-opacity="0.18"></stop>
+              <stop
+                offset="100%"
+                stop-color="#3E2723"
+                stop-opacity="0.08"
+              ></stop>
+            </linearGradient>
+          </defs>
+          <g fill="url(#beanGrad)">
+            <ellipse
+              cx="120"
+              cy="180"
+              rx="42"
+              ry="62"
+              transform="rotate(-22 120 180)"
+            ></ellipse>
+            <ellipse
+              cx="500"
+              cy="100"
+              rx="34"
+              ry="50"
+              transform="rotate(38 500 100)"
+            ></ellipse>
+            <ellipse
+              cx="540"
+              cy="420"
+              rx="46"
+              ry="68"
+              transform="rotate(-12 540 420)"
+            ></ellipse>
+            <ellipse
+              cx="80"
+              cy="480"
+              rx="38"
+              ry="56"
+              transform="rotate(28 80 480)"
+            ></ellipse>
+            <ellipse
+              cx="300"
+              cy="540"
+              rx="32"
+              ry="48"
+              transform="rotate(-8 300 540)"
+            ></ellipse>
+          </g>
+          <g
+            stroke="#3E2723"
+            stroke-opacity="0.22"
+            stroke-width="1.4"
+            fill="none"
+          >
+            <path
+              d="M 99 130 Q 120 180 141 232"
+              transform="rotate(-22 120 180)"
+            ></path>
+            <path
+              d="M 478 60  Q 500 100 522 142"
+              transform="rotate(38 500 100)"
+            ></path>
+            <path
+              d="M 516 360 Q 540 420 564 480"
+              transform="rotate(-12 540 420)"
+            ></path>
+            <path
+              d="M  60 432 Q  80 480 100 528"
+              transform="rotate(28 80 480)"
+            ></path>
+            <path
+              d="M 282 500 Q 300 540 318 580"
+              transform="rotate(-8 300 540)"
+            ></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="hero__inner">
+        <h1 class="hero__title">Australian<br /><em>Coffee Culture</em></h1>
+        <p class="hero__subtitle">From Bean to Cup: A Visual Journey</p>
+        <p class="hero__meta">
+          by Justin Yu (36196657) &nbsp;·&nbsp;
+          <span id="hero-date">May 2026</span>
+        </p>
+
+        <a href="#intro" class="hero__scroll" aria-label="Scroll to begin">
+          <span>Begin</span>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path
+              d="M 6 9 L 12 15 L 18 9"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- 2. INTRO -->
+    <section class="intro" id="intro" data-screen-label="02 Intro">
+      <div class="prose">
+        <p class="lede">
+          Walking through Melbourne on a weekday morning, you will see long
+          queues outside many cafés. Coffee is a daily habit for many
+          Australians, and Melbourne is often ranked among the world's best
+          coffee cities.
+        </p>
+        <p>
+          However, the coffee in your cup has travelled a long way before
+          reaching you. Most coffee beans in Australia are imported from
+          countries near the equator, such as Brazil, Vietnam, Ethiopia and
+          Colombia. Before they reach your local café, the beans cross several
+          oceans and go through many roasting and shipping stages.
+        </p>
+        <p>
+          This project tells that story in three parts. We will look at where
+          Australia's coffee comes from, where Australians drink it, and how its
+          price has changed in recent years.
+        </p>
+      </div>
+      <div class="intro__rule" aria-hidden="true">
+        <span class="intro__dot"></span>
+        <span class="intro__dot"></span>
+        <span class="intro__dot"></span>
+      </div>
+    </section>
+
+    <!-- 3. PART 1 GLOBAL SUPPLY -->
+    <section
+      class="part"
+      id="part-1"
+      data-screen-label="03 Part 1 Global Supply"
+    >
+      <div class="part__opener prose">
+        <p class="part__num">Part One</p>
+        <h2 class="part__title">Where Does Our Coffee Come From?</h2>
+        <p class="part__lede">
+          Australia produces almost no coffee of its own. Less than 1% of beans
+          roasted here are grown locally. The rest come from a small group of
+          countries near the equator. To understand Australia's coffee, we first
+          need to look at the world map.
+        </p>
+        <p>
+          The next four charts show this global picture: which countries produce
+          the most coffee, where Australia gets its supply, and the difference
+          between the two main species, <em>Arabica</em> and <em>Robusta</em>.
+        </p>
+      </div>
+
+      <!-- Chart 01 + 02 (60/40) -->
+      <div class="vis-row vis-row--60-40">
+        <article class="vis">
+          <p class="vis__label">01 · Global Supply</p>
+          <h3 class="vis__title">A belt around the equator</h3>
+          <p class="vis__caption">
+            Most of the world's coffee is grown within 25 degrees of the
+            equator. Three countries — Brazil, Vietnam and Colombia — together
+            produce more than half of the world's coffee.
+          </p>
+          <div
+            class="vis__chart vis__chart--map"
+            id="vis-01"
+            data-aspect="16/10"
+          >
+            <span class="vis__placeholder">Vis 01 · World map</span>
+          </div>
+          <p class="vis__source">
+            Source: USDA Foreign Agricultural Service (PSD), 2024
+          </p>
+        </article>
+
+        <article class="vis">
+          <p class="vis__label">02 · Top Producers</p>
+          <h3 class="vis__title">Three countries, half the world</h3>
+          <p class="vis__caption">
+            Brazil alone produces about one-third of the world's coffee. This is
+            a much higher share than any single country has in most other staple
+            crops.
+          </p>
+          <div class="vis__chart" id="vis-02" data-aspect="4/5">
+            <span class="vis__placeholder">Vis 02 · Top 10 producers</span>
+          </div>
+          <p class="vis__source">Source: USDA PSD, 2024 harvest year</p>
+        </article>
+      </div>
+
+      <!-- Chart 03 -->
+      <article class="vis vis--full">
+        <p class="vis__label">03 · Australia's coffee map</p>
+        <h3 class="vis__title">
+          Where our beans come from and how it has changed
+        </h3>
+        <p class="vis__caption">
+          Brazil's share of Australia's coffee imports has grown steadily over
+          the past ten years, while Vietnam's share has decreased. The supply
+          has also become more concentrated: in 2015, "other" countries supplied
+          almost half of Australia's coffee, but today this share is only about
+          one third.
+        </p>
+        <div class="vis__chart" id="vis-03" data-aspect="21/9">
+          <span class="vis__placeholder"
+            >Vis 03 · AU import shares 2015&ndash;2025</span
+          >
+        </div>
+        <p class="vis__source">
+          Source: UN Comtrade Database (HS 0901, Australia as reporter,
+          2015&ndash;2025)
+        </p>
+      </article>
+
+      <!-- Chart 04 -->
+      <article class="vis vis--full">
+        <p class="vis__label">04 · Arabica vs Robusta</p>
+        <h3 class="vis__title">Two beans, two coffee worlds</h3>
+        <p class="vis__caption">
+          Coffee comes from two main species: Arabica and Robusta. Arabica has a
+          more complex flavour and is preferred for drinking. Robusta is easier
+          to grow and has about twice the caffeine. This chart plots each
+          country by total production and Arabica share. Colombia, Ethiopia and
+          Honduras grow only Arabica. Vietnam and Indonesia mostly grow Robusta.
+          Brazil is the only country that produces large amounts of both
+          species.
+        </p>
+        <div class="vis__chart" id="vis-04" data-aspect="16/9">
+          <span class="vis__placeholder"
+            >Vis 04 · Country position by Arabica share</span
+          >
+        </div>
+        <p class="vis__source">
+          Source: USDA PSD Online, 2025 marketing year (estimates)
+        </p>
+      </article>
+    </section>
+
+    <!-- bean divider -->
+    <div class="divider" aria-hidden="true">
+      <svg viewBox="0 0 60 24" width="60" height="24">
+        <ellipse
+          cx="12"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+          transform="rotate(-18 12 12)"
+        ></ellipse>
+        <ellipse
+          cx="30"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+        ></ellipse>
+        <ellipse
+          cx="48"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+          transform="rotate(18 48 12)"
+        ></ellipse>
+      </svg>
+    </div>
+
+    <!-- 4. PART 2 LOCAL CONSUMPTION -->
+    <section
+      class="part"
+      id="part-2"
+      data-screen-label="04 Part 2 Local Consumption"
+    >
+      <div class="part__opener prose">
+        <p class="part__num">Part Two</p>
+        <h2 class="part__title">Where We Drink It</h2>
+        <p class="part__lede">
+          After the beans arrive, they are distributed across Australia.
+          Australians drink coffee at about twice the global per-capita average.
+          However, coffee culture is not the same across the country. Some
+          cities have very active café scenes, while others rely more on instant
+          coffee.
+        </p>
+        <p>
+          The next four charts look at Australia in detail: by state, by city,
+          and finally by price.
+        </p>
+      </div>
+
+      <div class="vis-row vis-row--50-50">
+        <article class="vis">
+          <p class="vis__label">05 · States</p>
+          <h3 class="vis__title">Where the cafés are densest</h3>
+          <p class="vis__caption">
+            New South Wales has the largest total number of cafés and
+            restaurants. However, after adjusting for population, Victoria ranks
+            first, followed closely by the ACT. The Northern Territory has the
+            lowest density, less than half of Victoria's.
+          </p>
+          <div class="vis__chart vis__chart--map" id="vis-05" data-aspect="4/3">
+            <span class="vis__placeholder"
+              >Vis 05 · Cafés per 10,000 residents</span
+            >
+          </div>
+          <p class="vis__source">
+            Sources: ABS CABEE (ANZSIC class 4511 "Cafés and Restaurants", June
+            2025); ABS Estimated Resident Population, June 2025
+          </p>
+        </article>
+
+        <article class="vis">
+          <p class="vis__label">06 · Per Capita</p>
+          <h3 class="vis__title">Victoria leads the ranking</h3>
+          <p class="vis__caption">
+            When measured per capita, the ranking changes. Victoria ranks first
+            with 25.3 cafés and restaurants per 10,000 residents. The ACT and
+            NSW follow closely. The Northern Territory has only about a third of
+            Victoria's density. This suggests that Australia's coffee culture is
+            mainly concentrated in coastal areas.
+          </p>
+          <div class="vis__chart" id="vis-06" data-aspect="4/3">
+            <span class="vis__placeholder"
+              >Vis 06 · Density ranked by state</span
+            >
+          </div>
+          <p class="vis__source">
+            Sources: ABS CABEE (ANZSIC class 4511 "Cafés and Restaurants", June
+            2025); ABS Estimated Resident Population, June 2025
+          </p>
+        </article>
+      </div>
+
+      <article class="vis vis--full">
+        <p class="vis__label">07 · Cafés by City</p>
+        <h3 class="vis__title">Where most cafés are located</h3>
+        <p class="vis__caption">
+          Melbourne and Sydney together have about 6,000 cafés, more than the
+          other three capital cities combined. Melbourne ranks first in both
+          total count and per-capita density. Most cafés in Australia are
+          independent rather than chain-owned. Only 5.7% of Melbourne's cafés
+          belong to a national chain, compared to 12.4% in Perth. Australia's
+          coffee culture is mainly independent and concentrated in the
+          southeast.
+        </p>
+        <div class="vis__chart" id="vis-07" data-aspect="16/9">
+          <span class="vis__placeholder">Vis 07 · 5-city café bubbles</span>
+        </div>
+        <p class="vis__source">
+          Source: OpenStreetMap (amenity=cafe), queried via Overpass API for
+          Greater Capital City bounding boxes, May 2026
+        </p>
+      </article>
+
+      <article class="vis vis--full">
+        <p class="vis__label">08 · Imports and Prices</p>
+        <h3 class="vis__title">Imports rise, prices double</h3>
+        <p class="vis__caption">
+          Between 2015 and 2025, Australia's coffee imports grew by 23%, from
+          100,000 to 123,000 tonnes. During the same period, the Arabica price
+          more than doubled. This was caused by frost damage in Brazil, La Niña
+          rains, and tight global supply. As a result, Australia's total import
+          bill jumped from US$481 million to US$1.02 billion. Australians paid
+          about twice as much for only a quarter more coffee.
+        </p>
+        <div class="vis__chart" id="vis-08" data-aspect="16/9">
+          <span class="vis__placeholder"
+            >Vis 08 · Imports vs Arabica price</span
+          >
+        </div>
+        <p class="vis__source">
+          Sources: UN Comtrade (HS 0901, Australia imports, 2015&ndash;2025);
+          World Bank Pink Sheet (Coffee Arabica, monthly average)
+        </p>
+      </article>
+    </section>
+
+    <div class="divider" aria-hidden="true">
+      <svg viewBox="0 0 60 24" width="60" height="24">
+        <ellipse
+          cx="12"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+          transform="rotate(-18 12 12)"
+        ></ellipse>
+        <ellipse
+          cx="30"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+        ></ellipse>
+        <ellipse
+          cx="48"
+          cy="12"
+          rx="6"
+          ry="9"
+          fill="#6F4E37"
+          opacity="0.55"
+          transform="rotate(18 48 12)"
+        ></ellipse>
+      </svg>
+    </div>
+
+    <!-- 5. PART 3 DEEP DIVE -->
+    <section class="part" id="part-3" data-screen-label="05 Part 3 Deep Dive">
+      <div class="part__opener prose">
+        <p class="part__num">Part Three</p>
+        <h2 class="part__title">The Story Behind the Cup</h2>
+        <p class="part__lede">
+          Behind every $4.50 flat white there is a long chain of farmers,
+          shippers, roasters and baristas. The price has risen faster than wages
+          for most of the past decade. In this final part, we look at the
+          journey of the beans, the long-term café sales trend, the price
+          changes, and how cafés differ between cities.
+        </p>
+      </div>
+
+      <!-- focus chart -->
+      <article class="vis vis--full vis--focus">
+        <p class="vis__label">09 · Flow Map &nbsp; ·</p>
+        <h3 class="vis__title">From origin country to Australia</h3>
+        <p class="vis__caption">
+          This map shows the origin countries of Australia's coffee imports in
+          2025. Each curved line connects an origin country to Australia. The
+          thicker the line, the more coffee was imported from that country.
+          Brazil alone supplied about 30,000 tonnes, nearly a quarter of the
+          total. The line colour shows the main species grown in that country:
+          green for Arabica-dominant countries (such as Colombia, Ethiopia,
+          Honduras and Papua New Guinea), and red for Robusta-dominant countries
+          (such as Vietnam, India, Uganda and Indonesia).
+        </p>
+        <div class="vis__chart vis__chart--map" id="vis-09" data-aspect="16/9">
+          <span class="vis__placeholder">Vis 09 · Flow map (focus)</span>
+        </div>
+        <p class="vis__source">
+          Sources: UN Comtrade (HS 0901, Australia imports, 2025); USDA Foreign
+          Agricultural Service (Arabica vs Robusta species shares by country)
+        </p>
+      </article>
+
+      <div class="vis-row vis-row--50-50">
+        <article class="vis">
+          <p class="vis__label">10 · Five years of cafés</p>
+          <h3 class="vis__title">From lockdown to landmark</h3>
+          <p class="vis__caption">
+            This heatmap shows Australia's café, restaurant and takeaway
+            turnover from June 2020 to June 2025. The lowest point was August
+            2021 (A$3.18 billion) during the Delta lockdowns. By May 2025,
+            monthly turnover had risen to A$5.61 billion, a 76% increase from
+            the trough. The ABS marked this series as ceased after June 2025, so
+            this heatmap covers the entire final dataset.
+          </p>
+          <div class="vis__chart" id="vis-10" data-aspect="4/3">
+            <span class="vis__placeholder">Vis 10 · Café turnover heatmap</span>
+          </div>
+          <p class="vis__source">
+            Source: ABS Retail Trade, Australia (Cat. 8501.0), Cafes,
+            restaurants and takeaway food services, seasonally adjusted, Jun
+            2020 &ndash; Jun 2025 (final release)
+          </p>
+        </article>
+
+        <article class="vis">
+          <p class="vis__label">11 · Price and Inflation</p>
+          <h3 class="vis__title">Inflation, but with a coffee spike</h3>
+          <p class="vis__caption">
+            Australia's general CPI changed between 1.9% and 4.6% over the past
+            year, and food prices remained around 3%. However, the coffee, tea
+            and cocoa category increased much more. It peaked at
+            <strong>+16.4%</strong> in October 2025, more than four times the
+            headline rate. By March 2026 the rate had decreased to +10.7%, but
+            this was still about double the All Groups figure.
+          </p>
+          <div class="vis__chart" id="vis-11" data-aspect="4/3">
+            <span class="vis__placeholder">Vis 11 · CPI annual change</span>
+          </div>
+          <p class="vis__source">
+            Source: ABS Consumer Price Index, Australia, Mar 2026 (Table 3,
+            Coffee/tea/cocoa expenditure class). Monthly CPI introduced Apr
+            2025.
+          </p>
+        </article>
+      </div>
+
+      <article class="vis vis--full">
+        <p class="vis__label">12 · Five-City Comparison</p>
+        <h3 class="vis__title">Comparing five capital cities</h3>
+        <p class="vis__caption">
+          This chart compares the five largest capital cities on two measures:
+          the share of cafés that belong to national chains (horizontal axis)
+          and the total number of cafés (vertical axis). The bubble size shows
+          density per 10,000 residents. The quadrant lines are drawn at the
+          data's midpoints (8.5% chain share and 1,500 total cafés). The chart
+          shows three groups. Melbourne and Sydney form a "coffee capital"
+          group: large markets with mostly independent cafés. Brisbane and Perth
+          have smaller markets with more chains. Adelaide is small but still
+          mostly independent. Melbourne has the highest density of all five
+          cities.
+        </p>
+        <div class="vis__chart" id="vis-12" data-aspect="16/9">
+          <span class="vis__placeholder"
+            >Vis 12 · City coffee culture quadrant</span
+          >
+        </div>
+        <p class="vis__source">
+          Source: OpenStreetMap (amenity=cafe, brand tag for chain detection),
+          Greater Capital City bounding boxes, May 2026
+        </p>
+      </article>
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer class="footer" data-screen-label="06 Footer">
+      <div class="footer__inner">
+        <p class="footer__close">
+          Australia's coffee story has many sides. From farms near the equator
+          to cafés in Melbourne and Sydney, every cup is the end of a long
+          supply chain. It involves global market forces, seasonal changes, and
+          a daily habit shared by millions of people.
+        </p>
+
+        <div class="footer__meta">
+          <div class="footer__col">
+            <p class="footer__label">Data sources</p>
+            <ul class="footer__list">
+              <li>
+                <a
+                  href="https://comtradeplus.un.org/"
+                  target="_blank"
+                  rel="noopener"
+                  >UN Comtrade Database</a
+                >
+                (HS 0901)
+              </li>
+              <li>
+                <a
+                  href="https://apps.fas.usda.gov/psdonline/app/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >USDA Foreign Agricultural Service</a
+                >
+                (PSD)
+              </li>
+              <li>
+                <a
+                  href="https://www.worldbank.org/en/research/commodity-markets"
+                  target="_blank"
+                  rel="noopener"
+                  >World Bank Pink Sheet</a
+                >
+              </li>
+              <li>
+                <a href="https://www.abs.gov.au/" target="_blank" rel="noopener"
+                  >Australian Bureau of Statistics</a
+                >
+                (<a
+                  href="https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/latest-release"
+                  target="_blank"
+                  rel="noopener"
+                  >CABEE</a
+                >,
+                <a
+                  href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+                  target="_blank"
+                  rel="noopener"
+                  >CPI</a
+                >,
+                <a
+                  href="https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia/latest-release"
+                  target="_blank"
+                  rel="noopener"
+                  >Retail Trade</a
+                >,
+                <a
+                  href="https://www.abs.gov.au/statistics/people/population"
+                  target="_blank"
+                  rel="noopener"
+                  >Population</a
+                >)
+              </li>
+              <li>
+                <a
+                  href="https://www.openstreetmap.org/"
+                  target="_blank"
+                  rel="noopener"
+                  >OpenStreetMap</a
+                >
+                (<a
+                  href="https://overpass-turbo.eu/"
+                  target="_blank"
+                  rel="noopener"
+                  >Overpass API</a
+                >)
+              </li>
+              <li>
+                <a
+                  href="https://github.com/tonywr71/GeoJson-Data"
+                  target="_blank"
+                  rel="noopener"
+                  >Tony Wong AU State GeoJSON</a
+                >;
+                <a
+                  href="https://github.com/vega/vega-datasets/blob/main/data/world-110m.json"
+                  target="_blank"
+                  rel="noopener"
+                  >Vega world-110m TopoJSON</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Acknowledgements</p>
+            <p class="footer__text">
+              Generative AI was used to generate the SVGs such as coffee bean
+              icons in the hero section, suggeste the colour palette, suggeste
+              the typography and provide the corresponding Google Fonts links.
+            </p>
+          </div>
+          <div class="footer__col">
+            <p class="footer__label">Credit</p>
+            <p class="footer__text">Justin Yu, 36196657 <br /></p>
+            <p class="footer__text footer__text--muted">May 2026</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

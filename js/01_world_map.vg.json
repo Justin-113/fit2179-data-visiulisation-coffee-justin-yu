@@ -1,0 +1,153 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "World choropleth map showing coffee bean production by country in the latest available year. Producing countries form a narrow belt around the equator.",
+    "height": "container",
+    "padding": 12,
+    "projection": {
+        "type": "equalEarth"
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "data/world-110m.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "countries"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "#EFE6D2",
+                "stroke": "#D6C9B0",
+                "strokeWidth": 0.3
+            }
+        },
+        {
+            "data": {
+                "url": "data/world-110m.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "countries"
+                }
+            },
+            "transform": [
+                {
+                    "lookup": "id",
+                    "from": {
+                        "data": {
+                            "url": "data/coffee_world_map.csv"
+                        },
+                        "key": "iso_id",
+                        "fields": [
+                            "country",
+                            "production_bags_1000",
+                            "production_tonnes"
+                        ]
+                    }
+                },
+                {
+                    "filter": "datum.production_bags_1000 != null"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#F5F1EA",
+                "strokeWidth": 0.4
+            },
+            "encoding": {
+                "color": {
+                    "field": "production_bags_1000",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "log",
+                        "range": [
+                            "#E8DCC4",
+                            "#2F5D50"
+                        ],
+                        "domain": [
+                            50,
+                            70000
+                        ]
+                    },
+                    "legend": {
+                        "title": "Production (1000 \u00d7 60-kg bags)",
+                        "titleFontSize": 11,
+                        "labelFontSize": 10,
+                        "orient": "bottom",
+                        "direction": "horizontal",
+                        "gradientLength": 220,
+                        "gradientThickness": 8,
+                        "format": "~s"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "country",
+                        "type": "nominal",
+                        "title": "Country"
+                    },
+                    {
+                        "field": "production_bags_1000",
+                        "type": "quantitative",
+                        "title": "Production (1000 bags)",
+                        "format": ","
+                    },
+                    {
+                        "field": "production_tonnes",
+                        "type": "quantitative",
+                        "title": "Production (tonnes)",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": -10,
+                        "lat": -15,
+                        "label": "Brazil grows"
+                    },
+                    {
+                        "lon": -10,
+                        "lat": -22,
+                        "label": "\u224836% of the world's"
+                    },
+                    {
+                        "lon": -10,
+                        "lat": -29,
+                        "label": "coffee"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}
