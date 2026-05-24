@@ -107,7 +107,11 @@
             "mark": {
                 "type": "line",
                 "interpolate": "basis",
-                "color": "#A53F2B",
+                "color": "#2F5D50",
+                "strokeDash": [
+                    6,
+                    3
+                ],
                 "opacity": 0.75
             },
             "encoding": {
@@ -208,7 +212,7 @@
                         ],
                         "range": [
                             "#2F5D50",
-                            "#A53F2B"
+                            "#2F5D50"
                         ]
                     },
                     "legend": null
@@ -345,6 +349,120 @@
             "mark": {
                 "type": "text",
                 "align": "center",
+                "baseline": "middle",
+                "fontSize": 11,
+                "fontWeight": 700,
+                "color": "#2A1B14"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": -135,
+                        "lat": -42,
+                        "order": 1
+                    },
+                    {
+                        "lon": -118,
+                        "lat": -42,
+                        "order": 2
+                    }
+                ]
+            },
+            "mark": {
+                "type": "line",
+                "color": "#2F5D50",
+                "strokeWidth": 4,
+                "opacity": 0.75
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "order": {
+                    "field": "order",
+                    "type": "ordinal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": -135,
+                        "lat": -50,
+                        "order": 1
+                    },
+                    {
+                        "lon": -118,
+                        "lat": -50,
+                        "order": 2
+                    }
+                ]
+            },
+            "mark": {
+                "type": "line",
+                "color": "#2F5D50",
+                "strokeWidth": 4,
+                "strokeDash": [
+                    6,
+                    3
+                ],
+                "opacity": 0.75
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "order": {
+                    "field": "order",
+                    "type": "ordinal"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "lon": -114,
+                        "lat": -42,
+                        "label": "Arabica"
+                    },
+                    {
+                        "lon": -114,
+                        "lat": -50,
+                        "label": "Robusta"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
                 "baseline": "middle",
                 "fontSize": 11,
                 "fontWeight": 700,

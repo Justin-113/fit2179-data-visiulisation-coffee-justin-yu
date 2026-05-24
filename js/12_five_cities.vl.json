@@ -86,7 +86,7 @@
             },
             "mark": {
                 "type": "rect",
-                "fill": "#7FA68F",
+                "fill": "#CCDBCE",
                 "opacity": 0.18
             },
             "encoding": {
@@ -119,7 +119,7 @@
             },
             "mark": {
                 "type": "rect",
-                "fill": "#D6A99B",
+                "fill": "#D5C2A4",
                 "opacity": 0.18
             },
             "encoding": {
@@ -152,7 +152,7 @@
             },
             "mark": {
                 "type": "rect",
-                "fill": "#E5D9B6",
+                "fill": "#E0E5DB",
                 "opacity": 0.18
             },
             "encoding": {
@@ -185,7 +185,7 @@
             },
             "mark": {
                 "type": "rect",
-                "fill": "#D6BCAE",
+                "fill": "#E5DBC5",
                 "opacity": 0.18
             },
             "encoding": {
@@ -413,7 +413,7 @@
                         "range": [
                             "#2F5D50",
                             "#1F5F5B",
-                            "#A53F2B",
+                            "#B85A1E",
                             "#C9A87C",
                             "#6F4E37"
                         ]

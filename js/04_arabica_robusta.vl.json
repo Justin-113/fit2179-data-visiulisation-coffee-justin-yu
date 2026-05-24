@@ -130,11 +130,11 @@
                             "Pure Robusta"
                         ],
                         "range": [
+                            "#0F3D32",
                             "#2F5D50",
-                            "#6F9B8C",
-                            "#8C7361",
-                            "#C77F66",
-                            "#A53F2B"
+                            "#587F73",
+                            "#8FB0A4",
+                            "#BAD3CA"
                         ]
                     },
                     "legend": {
@@ -294,7 +294,7 @@
                 "fontWeight": 700,
                 "fontStyle": "italic",
                 "letterSpacing": 1.5,
-                "color": "#A53F2B",
+                "color": "#2F5D50",
                 "opacity": 0.7
             },
             "encoding": {

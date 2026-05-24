@@ -100,7 +100,7 @@
         {
             "mark": {
                 "type": "line",
-                "color": "#A53F2B",
+                "color": "#B85A1E",
                 "strokeWidth": 3,
                 "strokeDash": [
                     6,
@@ -109,7 +109,7 @@
                 "point": {
                     "filled": true,
                     "size": 70,
-                    "color": "#A53F2B"
+                    "color": "#B85A1E"
                 }
             },
             "encoding": {
@@ -126,10 +126,10 @@
                     "axis": {
                         "title": "Arabica price (USD/kg)",
                         "titleFontSize": 12,
-                        "titleColor": "#A53F2B",
+                        "titleColor": "#B85A1E",
                         "titlePadding": 14,
                         "labelFontSize": 11,
-                        "labelColor": "#A53F2B",
+                        "labelColor": "#B85A1E",
                         "values": [
                             2,
                             4,
